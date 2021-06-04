@@ -1,0 +1,653 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_bg" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin" >
+
+        <com.app.doc.util.RobotoTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/ques_txt"
+            android:textSize="20sp" />
+
+        <com.app.doc.util.RobotoTextView
+            style="@style/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/emergencycontact_txt"
+            android:textSize="15sp" />
+
+        <com.app.doc.util.RobotoTextView
+            style="@style/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/emergcontname_txt" />
+
+        <EditText
+            android:id="@+id/emergcontname_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/curve_btn_bg"
+            android:inputType="text"
+            android:padding="5dp"  android:textColor="@android:color/black"
+            android:singleLine="true" />
+
+        <com.app.doc.util.RobotoTextView
+            style="@style/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/emergcontrelation_txt" />
+
+        <EditText
+            android:id="@+id/emergcontrelation_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/curve_btn_bg"
+            android:inputType="text"
+            android:padding="5dp"  android:textColor="@android:color/black"
+            android:singleLine="true" />
+
+        <com.app.doc.util.RobotoTextView
+            style="@style/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/emergcontphone_txt" />
+
+        <EditText
+            android:id="@+id/emergcontphone_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/curve_btn_bg"
+            android:inputType="phone"  android:textColor="@android:color/black"
+            android:padding="5dp"
+            android:singleLine="true" />
+
+        <!-- <TextView -->
+        <!-- android:layout_width="wrap_content" -->
+        <!-- android:layout_height="wrap_content" -->
+        <!-- style="@style/text" -->
+        <!-- android:text="@string/lastmedvis_txt" -->
+        <!-- /> -->
+
+
+        <!-- <EditText -->
+        <!-- android:id="@+id/lastmedvis_id" -->
+        <!-- android:layout_width="match_parent" -->
+        <!-- android:layout_height="wrap_content" -->
+        <!-- android:layout_marginTop="10dp" -->
+        <!-- android:background="@drawable/curve_btn_bg" -->
+        <!-- android:inputType="text" -->
+        <!-- android:padding="5dp" -->
+        <!-- android:singleLine="true" -->
+        <!-- /> -->
+
+        <com.app.doc.util.RobotoTextView
+            style="@style/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/questions_txt"
+            android:textColor="@android:color/black" />
+
+        <com.app.doc.util.RobotoTextView
+            style="@style/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lastmedvis_txt" />
+
+        <TextView
+            android:id="@+id/lastmedvis_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/curve_btn_bg"
+            android:padding="5dp" />
+
+        <com.app.doc.util.RobotoTextView
+            style="@style/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lastnameprov_txt" />
+
+        <EditText
+            android:id="@+id/lastnameprov_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/curve_btn_bg"
+            android:inputType="text"
+            android:padding="5dp"
+            android:singleLine="true" />
+
+        <com.app.doc.util.RobotoTextView
+            style="@style/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lastreasonvisit_txt" />
+
+        <EditText
+            android:id="@+id/lastreasonvisit_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/curve_btn_bg"
+            android:inputType="text"
+            android:padding="5dp"  android:textColor="@android:color/black"
+            android:singleLine="true" />
+
+        <com.app.doc.util.RobotoTextView
+            style="@style/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/listofmeds_txt" />
+
+        <EditText
+            android:id="@+id/listofmeds_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/curve_btn_bg"
+            android:inputType="text"  android:textColor="@android:color/black"
+            android:padding="5dp"
+            android:singleLine="true" />
+
+        <com.app.doc.util.RobotoTextView
+            style="@style/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/listofsupps_txt" />
+
+        <EditText
+            android:id="@+id/listofsupps_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/curve_btn_bg"
+            android:inputType="text"  android:textColor="@android:color/black"
+            android:padding="5dp"
+            android:singleLine="true" />
+
+        <com.app.doc.util.RobotoTextView
+            style="@style/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hospitalsurgeries_txt" />
+
+        <EditText
+            android:id="@+id/hospitalsurgeries_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"  android:textColor="@android:color/black"
+            android:background="@drawable/curve_btn_bg"
+            android:inputType="text"
+            android:padding="5dp"
+            android:singleLine="true" />
+
+        <com.app.doc.util.RobotoTextView
+            style="@style/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/drugallergies_txt" />
+
+        <EditText
+            android:id="@+id/drugallergies_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"  android:textColor="@android:color/black"
+            android:background="@drawable/curve_btn_bg"
+            android:inputType="text"
+            android:padding="5dp"
+            android:singleLine="true" />
+
+        <com.app.doc.util.RobotoTextView
+            style="@style/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pharmacyname_txt" />
+
+        <EditText
+            android:id="@+id/pharmacyname_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"  android:textColor="@android:color/black"
+            android:background="@drawable/curve_btn_bg"
+            android:inputType="text"
+            android:padding="5dp"
+            android:singleLine="true" />
+
+        <com.app.doc.util.RobotoTextView
+            style="@style/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pharmacynumber_txt" />
+
+        <EditText
+            android:id="@+id/pharmacynumber_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"  android:textColor="@android:color/black"
+            android:background="@drawable/curve_btn_bg"
+            android:inputType="phone"
+            android:padding="5dp"
+            android:singleLine="true" />
+
+        <com.app.doc.util.RobotoTextView
+            style="@style/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lastbloodwork_txt" />
+
+        <TextView
+            android:id="@+id/lastbloodwork_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/curve_btn_bg"
+            android:padding="5dp" />
+
+        <com.app.doc.util.RobotoTextView
+            style="@style/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tetanusshot_txt" />
+
+        <TextView
+            android:id="@+id/tetanusshot_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/curve_btn_bg"
+            android:padding="5dp" />
+
+        <com.app.doc.util.RobotoTextView
+            style="@style/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/procedures_txt"
+            android:textSize="20sp" />
+
+        <com.app.doc.util.RobotoTextView
+            style="@style/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dexascan_txt" />
+
+        <TextView
+            android:id="@+id/dexascan_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/curve_btn_bg"
+            android:padding="5dp" />
+
+        <com.app.doc.util.RobotoTextView
+            style="@style/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/colonoscopy_txt" />
+
+        <TextView
+            android:id="@+id/colonoscopy_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/curve_btn_bg"
+            android:padding="5dp" />
+
+        <com.app.doc.util.RobotoTextView
+            style="@style/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ekg_txt" />
+
+        <TextView
+            android:id="@+id/ekg_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/curve_btn_bg"
+            android:padding="5dp" />
+
+        <com.app.doc.util.RobotoTextView
+            style="@style/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/immunizations_txt"
+            android:textColor="@android:color/black" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp" >
+
+            <CheckBox
+                android:id="@+id/dpt_chk_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:button="@drawable/checkbox" />
+
+            <com.app.doc.util.RobotoTextView
+                style="@style/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:text="@string/dpt_chk_txt" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <com.app.doc.util.RobotoTextView
+                style="@style/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/tetanus_chk_id"
+                android:layout_alignBottom="@+id/tetanus_chk_id"
+                android:layout_alignParentLeft="true"
+                android:text="@string/tetanus_chk_txt" />
+
+            <CheckBox
+                android:id="@+id/tetanus_chk_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:button="@drawable/checkbox" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <com.app.doc.util.RobotoTextView
+                style="@style/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/mmr_chk_id"
+                android:layout_alignBottom="@+id/mmr_chk_id"
+                android:layout_alignParentLeft="true"
+                android:text="@string/mmr_chk_txt" />
+
+            <CheckBox
+                android:id="@+id/mmr_chk_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:button="@drawable/checkbox" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <com.app.doc.util.RobotoTextView
+                style="@style/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/flu_chk_id"
+                android:layout_alignBottom="@+id/flu_chk_id"
+                android:layout_alignParentLeft="true"
+                android:text="@string/flu_chk_txt" />
+
+            <CheckBox
+                android:id="@+id/flu_chk_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:button="@drawable/checkbox" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <com.app.doc.util.RobotoTextView
+                style="@style/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/polio_chk_id"
+                android:layout_alignBottom="@+id/polio_chk_id"
+                android:layout_alignParentLeft="true"
+                android:text="@string/polio_chk_txt" />
+
+            <CheckBox
+                android:id="@+id/polio_chk_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:button="@drawable/checkbox" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <com.app.doc.util.RobotoTextView
+                style="@style/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/hepatitisa_chk_id"
+                android:layout_alignBottom="@+id/hepatitisa_chk_id"
+                android:layout_alignParentLeft="true"
+                android:text="@string/hepatitisa_chk_txt" />
+
+            <CheckBox
+                android:id="@+id/hepatitisa_chk_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:button="@drawable/checkbox" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <com.app.doc.util.RobotoTextView
+                style="@style/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/hepatitisb_chk_id"
+                android:layout_alignBottom="@+id/hepatitisb_chk_id"
+                android:layout_alignParentLeft="true"
+                android:text="@string/hepatitisb_chk_txt" />
+
+            <CheckBox
+                android:id="@+id/hepatitisb_chk_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:button="@drawable/checkbox" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <com.app.doc.util.RobotoTextView
+                style="@style/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/smallpox_chk_id"
+                android:layout_alignBottom="@+id/smallpox_chk_id"
+                android:layout_alignParentLeft="true"
+                android:text="@string/smallpox_chk_txt" />
+
+            <CheckBox
+                android:id="@+id/smallpox_chk_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:button="@drawable/checkbox" />
+        </RelativeLayout>
+
+        <com.app.doc.util.RobotoTextView
+            style="@style/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/familyhistory_txt"
+            android:textColor="@android:color/black" />
+
+        <com.app.doc.util.RobotoTextView
+            style="@style/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/familyhistorylist_txt" />
+
+        <com.app.doc.util.RobotoTextView
+            style="@style/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mother_txt" />
+
+        <EditText
+            android:id="@+id/mother_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/curve_btn_bg"
+            android:inputType="text"  android:textColor="@android:color/black"
+            android:padding="5dp"
+            android:singleLine="true" />
+
+        <com.app.doc.util.RobotoTextView
+            style="@style/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/father_txt" />
+
+        <EditText
+            android:id="@+id/father_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"  android:textColor="@android:color/black"
+            android:background="@drawable/curve_btn_bg"
+            android:inputType="text"
+            android:padding="5dp"
+            android:singleLine="true" />
+
+        <com.app.doc.util.RobotoTextView
+            style="@style/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/female_txt"
+            android:textColor="@android:color/black" />
+
+        <com.app.doc.util.RobotoTextView
+            style="@style/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lmp_txt" />
+
+        <TextView
+            android:id="@+id/lmp_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/curve_btn_bg"
+            android:padding="5dp" />
+
+        <com.app.doc.util.RobotoTextView
+            style="@style/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lastpap_txt" />
+
+        <TextView
+            android:id="@+id/lastpap_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/curve_btn_bg"
+            android:padding="5dp" />
+
+        <com.app.doc.util.RobotoTextView
+            style="@style/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mammogram_txt" />
+
+        <TextView
+            android:id="@+id/mammogram_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/curve_btn_bg"
+            android:padding="5dp" />
+
+        <com.app.doc.util.RobotoTextView
+            style="@style/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/disorders_txt"
+            android:textColor="@android:color/black" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <com.app.doc.util.RobotoTextView
+                style="@style/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/blooddisorder_chk_id"
+                android:layout_alignBottom="@+id/blooddisorder_chk_id"
+                android:layout_alignParentLeft="true"
+                android:text="@string/blooddisorder_chk_txt" />
+
+            <CheckBox
+                android:id="@+id/blooddisorder_chk_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:button="@drawable/checkbox" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <com.app.doc.util.RobotoTextView
+                style="@style/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/spinedisorder_chk_id"
+                android:layout_alignBottom="@+id/spinedisorder_chk_id"
+                android:layout_alignParentLeft="true"
+                android:text="@string/spinedisorder_chk_txt" />
+
+            <CheckBox
+                android:id="@+id/spinedisorder_chk_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:button="@drawable/checkbox" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</ScrollView>

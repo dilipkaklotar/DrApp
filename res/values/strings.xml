@@ -1,0 +1,544 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Dr. App</string>
+    <string name="appname_txt">Dr. App</string>
+    <string name="eng_txt">English</string>
+    <string name="esp_txt">Español</string>
+    <string name="info_txt">Patient information</string>
+    <string name="type_txt">Book type</string>
+    <string name="ques_txt">Questionnaire</string>
+    <string name="fav_txt">Favorites</string>
+    <string name="scan_txt">Ready to scan</string>
+    <string name="delete_profile">Delete Profile</string>
+    <string name="prof_txt">Profile</string>
+    <string name="questions_txt">Questions</string>
+    <string name="disorders_txt">Known disorders</string>
+    <string name="add_new_txt"> + Add new Profile</string>
+    <string name="your_info_txt">Patient information</string>
+    <string name="fname_txt">First name:</string>
+    <string name="mname_txt">Middle initial:</string>
+    <string name="lname_txt">Last name:</string>
+    <string name="dob_txt">Date of birth:</string>
+    <string name="sex_txt">Sex:</string>
+    <string name="male_txt">Male</string>
+    <string name="female_txt">Female</string>
+    <string name="state_txt">State:</string>
+    <string name="city_txt">City:</string>
+
+    <!--  -->
+
+    <string name="connection_problem">Connection Problem</string>
+    <string name="strOk">OK</string>
+    <string name="netconnection">Please check your internet connection</string>
+    <string name="strLoading">Loading &#8230;</string>
+
+    <string-array name="statename">
+        <item></item>
+        <item>AL</item>
+        <item>AK</item>
+        <item>AZ</item>
+        <item>AR</item>
+        <item>CA</item>
+        <item>CO</item>
+        <item>CT</item>
+        <item>DE</item>
+        <item>DC</item>
+        <item>FL</item>
+        <item>GA</item>
+        <item>HI</item>
+        <item>ID</item>
+        <item>IL</item>
+        <item>IN</item>
+        <item>IA</item>
+        <item>KS</item>
+        <item>KY</item>
+        <item>LA</item>
+        <item>ME</item>
+        <item>MD</item>
+        <item>MA</item>
+        <item>MI</item>
+        <item>MN</item>
+        <item>MS</item>
+        <item>MO</item>
+        <item>MT</item>
+        <item>NE</item>
+        <item>NV</item>
+        <item>NH</item>
+        <item>NM</item>
+        <item>NY</item>
+        <item>NC</item>
+        <item>ND</item>
+        <item>OH</item>
+        <item>OK</item>
+        <item>OR</item>
+        <item>PA</item>
+        <item>RI</item>
+        <item>SC</item>
+        <item>SD</item>
+        <item>TN</item>
+        <item>TX</item>
+        <item>UT</item>
+        <item>VT</item>
+        <item>VA</item>
+        <item>WA</item>
+        <item>WV</item>
+        <item>WI</item>
+        <item>WY</item>
+    </string-array>
+
+    <string name="sp_info_txt">Spouse info</string>
+    <string name="iswant_txt">Is the book you want in the library?</string>
+    <string name="yes_txt">Yes</string>
+    <string name="no_txt">No</string>
+    <string name="typeobook_txt">What type of book is it?</string>
+
+    <string-array name="booktype">
+        <item>Fiction</item>
+        <item>Non-fiction</item>
+        <item>Documentary</item>
+        <item>Other</item>
+    </string-array>
+
+    <!-- <string name="energyprompt_txt">Touch here to select</string> -->
+
+    <string-array name="energy">
+        <item></item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+
+    <string name="primary_txt">Primary item</string>
+    <string name="secondary_txt">Secondary item</string>
+    <string name="magzwant_txt">Is there a magazine you want?</string>
+    <string name="magz_name_txt">Name of magazine:</string>
+    <string name="refferd_txt">Who referred you to this library?</string>
+    <string name="name_txt">Name</string>
+    <string name="rel_txt">Relationship to you</string>
+    <string name="phone_txt">Phone</string>
+    <string name="question_txt">Question</string>
+    <string name="last_visit_txt">When was your last visit to the library (MMDDYYYY)</string>
+    <string name="lib_name_txt">Name of library:</string>
+    <string name="hist_txt">History</string>
+    <string name="prev_borrow_txt">List of books previously borrowed from the library:</string>
+    <string name="inter_txt">International</string>
+    <string name="child_txt">Children\'s</string>
+    <string name="self_txt">Self Help</string>
+    <string name="more_book_txt">Which types of books would you like to see more of at the library?</string>
+    <string name="gen_txt">General</string>
+    <string name="sci_txt">Science fiction</string>
+    <string name="sat_txt">Satire</string>
+    <string name="drama_txt">Drama</string>
+    <string name="roman_txt">Romance</string>
+    <string name="myst_txt">Mystery</string>
+    <string name="child1_txt">Children\'s:</string>
+    <string name="comd_txt">Comedy</string>
+    <string name="comc_txt">Comics</string>
+    <string name="fant_txt">Fantasy</string>
+    <string name="sleep_txt">Sleep/Energy:</string>
+    <string name="energy_txt">What is your energy level from 1&#8211;10? (1&#8211;low, 10&#8211;high)</string>
+    <string name="hrs_txt">How many hours do you sleep per night?</string>
+    <string name="want_rest_txt">Do you wake rested after reading?</string>
+    <string name="style_txt">Lifestyle</string>
+    <string name="issomke_txt">Do you smoke? Yes/No/Past</string>
+    <string name="past_txt">Past</string>
+    <string name="isalch_txt">Do you consume alcohol/beer? Yes/No/Past</string>
+    <string name="times_txt">How many days per week?</string>
+    <string name="delete_msg">Profile delete?</string>
+    <string name="age_txt">Age: </string>
+    <string name="save_txt">Last Saved: </string>
+    <string name="want_save_txt">Want to save profile?</string>
+    <string name="loading_txt">Loading&#8230;</string>
+    <string name="patinfo_txt">Patient information</string>
+    <string name="insur_txt">Insurance information</string>
+    <string name="search_txt">Search</string>
+    <string name="symp_txt">Symptoms</string>
+    <string name="yourinsur_txt">Your primary insurance</string>
+    <string name="yoursecinsur_txt">Your secondary insurance</string>
+    <string name="primary_ins_txt">Primary insurance</string>
+    <string name="second_ins_txt">Secondary insurance</string>
+    <string name="height_txt">Height:</string>
+    <string name="feet_txt">Feet</string>
+    <string name="inches_txt">Inches</string>
+    <string name="weight_txt">Weight:</string>
+    <string name="maritalstatus_txt">Marital status:</string>
+    <string name="streetaddress_txt">Street address:</string>
+    <string name="apartmentnumber_txt">Apartment number:</string>
+    <string name="zipcode_txt">Zip code:</string>
+    <string name="homephone_txt">Home phone:</string>
+    <string name="businessphone_txt">Business phone:</string>
+    <string name="mobilephone_txt">Mobile phone:</string>
+    <string name="emailaddress_txt">Email address:</string>
+    <string name="occupation_txt">Occupation:</string>
+    <string name="ssn_txt">Social Security number:</string>
+    <string name="gfname_txt">First name:</string>
+    <string name="gmname_txt">Middle name:</string>
+    <string name="glname_txt">Last name:</string>
+    <string name="gdob_txt">Date Of birth:</string>
+    <string name="gssn_txt">Social Security number:</string>
+    <string name="gdayphone_txt">Daytime phone number:</string>
+    <string name="gaddress_txt">Street address:</string>
+    <string name="gaptnum_txt">Apartment number:</string>
+    <string name="gcity_txt">City:</string>
+    <string name="gstate_txt">State:</string>
+
+    <string-array name="gstatename">
+        <item></item>
+        <item>AL</item>
+        <item>AK</item>
+        <item>AZ</item>
+        <item>AR</item>
+        <item>CA</item>
+        <item>CO</item>
+        <item>CT</item>
+        <item>DE</item>
+        <item>DC</item>
+        <item>FL</item>
+        <item>GA</item>
+        <item>HI</item>
+        <item>ID</item>
+        <item>IL</item>
+        <item>IN</item>
+        <item>IA</item>
+        <item>KS</item>
+        <item>KY</item>
+        <item>LA</item>
+        <item>ME</item>
+        <item>MD</item>
+        <item>MA</item>
+        <item>MI</item>
+        <item>MN</item>
+        <item>MS</item>
+        <item>MO</item>
+        <item>MT</item>
+        <item>NE</item>
+        <item>NV</item>
+        <item>NH</item>
+        <item>NM</item>
+        <item>NY</item>
+        <item>NC</item>
+        <item>ND</item>
+        <item>OH</item>
+        <item>OK</item>
+        <item>OR</item>
+        <item>PA</item>
+        <item>RI</item>
+        <item>SC</item>
+        <item>SD</item>
+        <item>TN</item>
+        <item>TX</item>
+        <item>UT</item>
+        <item>VT</item>
+        <item>VA</item>
+        <item>WA</item>
+        <item>WV</item>
+        <item>WI</item>
+        <item>WY</item>
+    </string-array>
+    <string-array name="policyhempstatename">
+        <item></item>
+        <item>AL</item>
+        <item>AK</item>
+        <item>AZ</item>
+        <item>AR</item>
+        <item>CA</item>
+        <item>CO</item>
+        <item>CT</item>
+        <item>DE</item>
+        <item>DC</item>
+        <item>FL</item>
+        <item>GA</item>
+        <item>HI</item>
+        <item>ID</item>
+        <item>IL</item>
+        <item>IN</item>
+        <item>IA</item>
+        <item>KS</item>
+        <item>KY</item>
+        <item>LA</item>
+        <item>ME</item>
+        <item>MD</item>
+        <item>MA</item>
+        <item>MI</item>
+        <item>MN</item>
+        <item>MS</item>
+        <item>MO</item>
+        <item>MT</item>
+        <item>NE</item>
+        <item>NV</item>
+        <item>NH</item>
+        <item>NM</item>
+        <item>NY</item>
+        <item>NC</item>
+        <item>ND</item>
+        <item>OH</item>
+        <item>OK</item>
+        <item>OR</item>
+        <item>PA</item>
+        <item>RI</item>
+        <item>SC</item>
+        <item>SD</item>
+        <item>TN</item>
+        <item>TX</item>
+        <item>UT</item>
+        <item>VT</item>
+        <item>VA</item>
+        <item>WA</item>
+        <item>WV</item>
+        <item>WI</item>
+        <item>WY</item>
+    </string-array>
+
+    <string name="gzipcode_txt">Zip code:</string>
+    <string name="medins_txt">Medical insurance:</string>
+    <string name="patientrelat_txt">Patient relationship to insured:</string>
+    <string name="policyhname_txt">Policy holder\'s full name:</string>
+    <string name="policyhdob_txt">Policy holder\'s DOB:</string>
+    <string name="policyhssn_txt">Policy holder\'s Social Security number:</string>
+    <string name="policyhadd_txt">Policy holder\'s address:</string>
+    <string name="policythruemp_txt">Is policy through an employer?:</string>
+    <string name="policyhemployer_txt">Policy holder\'s name of employer:</string>
+    <string name="policyhempaddress_txt">Policy holder\'s employer address:</string>
+    <string name="policyhempcity_txt">Policy holder\'s employer city:</string>
+    <string name="policyhempstate_txt">Policy holder\'s employer state:</string>
+    <string name="secmedins_txt">Do you have secondary medical insurance:</string>
+    <string name="secinsname_txt">Secondary insurance name:</string>
+    <string name="secpolnum_txt">Secondary policy number:</string>
+    <string name="mother_txt">Mother:</string>
+    <string name="father_txt">Father:</string>
+    <string name="secgroupnum_txt">Secondary group number:</string>
+    <string name="secauthnum_txt">Secondary authorization number:</string>
+    <string name="secinsadd_txt">Secondary insurance address:</string>
+    <string name="secinsphone_txt">Secondary insurance phone number:</string>
+    <string name="secrelationship_txt">Patient relationship to insured:</string>
+    <string name="priminsname_txt">Insurance name:</string>
+    <string name="primpolnum_txt">Policy number:</string>
+    <string name="primgroupnum_txt">Group number:</string>
+    <string name="primauthnum_txt">Authorization number:</string>
+    <string name="priminsadd_txt">Insurance address:</string>
+    <string name="priminsphone_txt">Insurance phone number:</string>
+    <string name="emergencycontact_txt">Emergency contact information</string>
+    <string name="emergcontname_txt">Emergency contact name:</string>
+    <string name="emergcontrelation_txt">Emergency contact relationship:</string>
+    <string name="emergcontphone_txt">Emergency contact phone:</string>
+    <string name="lastmedvis_txt">Last medical visit:</string>
+    <string name="lastnameprov_txt">Name of provider:</string>
+    <string name="lastreasonvisit_txt">Reason for visit:</string>
+    <string name="listofmeds_txt">List of current medications:</string>
+    <string name="listofsupps_txt">List of current supplements:</string>
+    <string name="hospitalsurgeries_txt">Hospitalizations/Surgeries:</string>
+    <string name="drugallergies_txt">Drug allergies:</string>
+    <string name="lastbloodwork_txt">Date of last blood work:</string>
+    <string name="tetanusshot_txt">Date of last Tenatus shot:</string>
+    <string name="pharmacyname_txt">Pharmacy name:</string>
+    <string name="pharmacynumber_txt">Pharmacy phone number:</string>
+    <string name="dexascan_txt">Dexa scan:</string>
+    <string name="colonoscopy_txt">Colonoscopy:</string>
+    <string name="ekg_txt">EKG:</string>
+    <string name="procedures_txt">Procedures</string>
+    <string name="familyhistory_txt">Family history</string>
+    <string name="familyhistorylist_txt">List important medical problems of your parents:</string>
+    <string name="defect_chk_txt">Defect or deformity:</string>
+    <string name="diseasecolon_chk_txt">Digestive disease/Colon:</string>
+    <string name="kidneyd_chk_txt">Kidney disease:</string>
+    <string name="hearttrb_chk_txt">Heart trouble:</string>
+    <string name="lifethreatcondition_chk_txt">Life threatening conditions:</string>
+    <string name="lmp_txt">Last Menstrual Period (LMP):</string>
+    <string name="lastpap_txt">Last Pap Smear:</string>
+    <string name="mammogram_txt">Mammogram:</string>
+    <string name="spinedisorder_chk_txt">Spine disorder:</string>
+    <string name="blooddisorder_chk_txt">Blood disorder:</string>
+    <string name="dpt_chk_txt">Immunization DPT:</string>
+    <string name="tetanus_chk_txt">Immunization Tetanus booster:</string>
+    <string name="mmr_chk_txt">Immunization MMR:</string>
+    <string name="flu_chk_txt">Immunization Flu:</string>
+    <string name="polio_chk_txt">Immunization Polio:</string>
+    <string name="hepatitisa_chk_txt">Immunization Hepatitis A:</string>
+    <string name="hepatitisb_chk_txt">Immunization Hepatitis B:</string>
+    <string name="smallpox_chk_txt">Immunization Small Pox:</string>
+    <string name="weightchng_chk_txt">Weight change:</string>
+    <string name="weakness_chk_txt">Weakness:</string>
+    <string name="fatigue_chk_txt">Fatigue:</string>
+    <string name="fever_chk_txt">Fever:</string>
+    <string name="cancer_chk_txt">Cancer:</string>
+    <string name="headache_chk_txt">Headache:</string>
+    <string name="headinjury_chk_txt">Head injury:</string>
+    <string name="dizziness_chk_txt">Dizziness:</string>
+    <string name="lightheadedness_chk_txt">Lightheadedness:</string>
+    <string name="visionchange_chk_txt">Vision changes:</string>
+    <string name="eyepain_chk_txt">Eye pain:</string>
+    <string name="doublevision_chk_txt">Double or blurry vision:</string>
+    <string name="spotsflashinglights_chk_txt">Spots or flashing lights:</string>
+    <string name="glaucoma_chk_txt">Glaucoma:</string>
+    <string name="cataracts_chk_txt">Cataracts:</string>
+    <string name="hearingchange_chk_txt">Hearing changes or loss:</string>
+    <string name="ringing_chk_txt">Ringing:</string>
+    <string name="vertigo_chk_txt">Vertigo:</string>
+    <string name="earaches_chk_txt">Ear aches:</string>
+    <string name="infection_chk_txt">Infection or discharges:</string>
+    <string name="frequentcold_chk_txt">Frequent colds:</string>
+    <string name="nasalcongestion_chk_txt">Nasal congestion:</string>
+    <string name="discharge_chk_txt">Discharge or itching:</string>
+    <string name="hayfever_chk_txt">Hay fever:</string>
+    <string name="nosebleed_chk_txt">Nose bleeds:</string>
+    <string name="sinus_chk_txt">Sinus problems:</string>
+    <string name="lumpsneck_chk_txt">Lumps in neck:</string>
+    <string name="swollenglands_chk_txt">Swollen glands:</string>
+    <string name="goiter_chk_txt">Goiter:</string>
+    <string name="painneck_chk_txt">Pain or Neck stiffness:</string>
+    <string name="cough_chk_txt">Cough:</string>
+    <string name="coughingblood_chk_txt">Coughing up blood:</string>
+    <string name="shortnessbreath_chk_txt">Shortness of breath:</string>
+    <string name="wheezing_chk_txt">Wheezing:</string>
+    <string name="sleepapnea_chk_txt">Sleep apnea:</string>
+    <string name="troublebreathing_chk_txt">Trouble breathing lying down:</string>
+    <string name="dentalproblems_chk_txt">Dental problems:</string>
+    <string name="soretongue_chk_txt">Sore tongue:</string>
+    <string name="drymouth_chk_txt">Dry mouth:</string>
+    <string name="freqsorethroat_chk_txt">Frequent sore throats:</string>
+    <string name="hoarseness_chk_txt">Hoarseness:</string>
+    <string name="chestpain_chk_txt">Chest pain or discomfort:</string>
+    <string name="highbloodpressure_chk_txt">High blood pressure:</string>
+    <string name="murmus_chk_txt">Murmus:</string>
+    <string name="rheumaticfever_chk_txt">Rheumatic fever:</string>
+    <string name="palpitations_chk_txt">Palpitations:</string>
+    <string name="difficultyswallow_chk_txt">Difficulty swallowing:</string>
+    <string name="heartburn_chk_txt">Heartburn:</string>
+    <string name="nauseavomit_chk_txt">Nausea or vomiting:</string>
+    <string name="regurgitation_chk_txt">Regurgitation:</string>
+    <string name="vomitingblood_chk_txt">Vomiting blood:</string>
+    <string name="indigestion_chk_txt">Indigestion:</string>
+    <string name="rectalbleeding_chk_txt">Rectal bleeding:</string>
+    <string name="blacktarrystools_chk_txt">Black tarry stools:</string>
+    <string name="hemorrhoids_chk_txt">Hemorrhoids:</string>
+    <string name="constipation_chk_txt">Constipation:</string>
+    <string name="diarrhea_chk_txt">Diarrhea:</string>
+    <string name="abdominal_chk_txt">Abdominal pain:</string>
+    <string name="foodintolerance_chk_txt">Food intolerance:</string>
+    <string name="excessivebelchgas_chk_txt">Excessive belching or gas:</string>
+    <string name="yellowingskin_chk_txt">Yellowing of skin:</string>
+    <string name="livergallbladderprobs_chk_txt">Liver of gallbladder problems:</string>
+    <string name="hepatitis_chk_txt">Hepatitis:</string>
+    <string name="bladderinfection_chk_txt">Bladder infection:</string>
+    <string name="urinaryfrequrgency_chk_txt">Urinary frequency or urgency:</string>
+    <string name="bloodurine_chk_txt">Blood in urine:</string>
+    <string name="painfulurination_chk_txt">Painful or burning urination:</string>
+    <string name="dribblingstream_chk_txt">Dribbling or split stream:</string>
+    <string name="reducedforcestream_chk_txt">Reduced force of stream:</string>
+    <string name="hesitancy_chk_txt">Hesitancy:</string>
+    <string name="incontinence_chk_txt">Incontinence:</string>
+    <string name="bladderkidneystone_chk_txt">Bladder or kidney stones:</string>
+    <string name="irregularmenses_chk_txt">Irregular menses:</string>
+    <string name="breakthroughbleeding_chk_txt">Breakthrough bleeding:</string>
+    <string name="painfulmenses_chk_txt">Painful menses:</string>
+    <string name="pms_chk_txt">PMS:</string>
+    <string name="vaginaldischargeitch_chk_txt">Vaginal discharge or itching:</string>
+    <string name="vaginalsorelumpsSTD_chk_txt">Vaginal sores, lumps or STD:</string>
+    <string name="menopausal_chk_txt">Menopausal:</string>
+    <string name="postmenopausalbleeding_chk_txt">Postmenopausal bleeding:</string>
+    <string name="hernias_chk_txt">Hernias:</string>
+    <string name="dischargessorespeni_chk_txt">Discharges from or sores on penis:</string>
+    <string name="testicularpainmasses_chk_txt">Testicular pain or masses:</string>
+    <string name="std_chk_txt">Sexually Transmitted disease:</string>
+    <string name="musclepain_chk_txt">Muscle or joint pains:</string>
+    <string name="stiffness_chk_txt">Stiffness:</string>
+    <string name="arthritis_chk_txt">Arthritis:</string>
+    <string name="gout_chk_txt">Gout:</string>
+    <string name="backache_chk_txt">Backache:</string>
+    <string name="fainting_chk_txt">Fainting:</string>
+    <string name="blackouts_chk_txt">Blackouts:</string>
+    <string name="seizures_chk_txt">Seizures:</string>
+    <string name="weaknessparalysis_chk_txt">Weakness or paralysis:</string>
+    <string name="numbnessloss_chk_txt">Numbness or loss of sensation:</string>
+    <string name="tingling_chk_txt">Tingling:</string>
+    <string name="tremors_chk_txt">Tremors or twitches:</string>
+    <string name="memoryloss_chk_txt">Memory loss:</string>
+    <string name="trouble_chk_txt">Trouble concentrating:</string>
+    <string name="rasheslumpssores_chk_txt">"Rashes, lumps or sores:</string>
+    <string name="itchingdryness_chk_txt">Itching or dryness:</string>
+    <string name="colorchange_chk_txt">Color change:</string>
+    <string name="changehairnails_chk_txt">Change in hair or nails:</string>
+    <string name="breastlumps_chk_txt">Breast lumps:</string>
+    <string name="breastpain_chk_txt">Breast pain or discomfort:</string>
+    <string name="nippledischarge_chk_txt">Nipple discharge:</string>
+    <string name="thyroidproblems_chk_txt">Thyroid problems:</string>
+    <string name="heatcoldintolerance_chk_txt">Heat or cold intolerance:</string>
+    <string name="excessivesweating_chk_txt">Excessive sweating:</string>
+    <string name="diabetes_chk_txt">Diabetes:</string>
+    <string name="excessivethirsthunger_chk_txt">Excessive thirst or hunger:</string>
+    <string name="frequenturination_chk_txt">Frequent urination:</string>
+    <string name="anemia_chk_txt">Anemia:</string>
+    <string name="easybruisingbleeding_chk_txt">Easy bruising or bleeding:</string>
+    <string name="pasttransfusion_chk_txt">Past transfusion or reactions to them:</string>
+    <string name="intermittent_chk_txt">Intermittent claudication:</string>
+    <string name="leg_chk_txt">Leg cramps:</string>
+    <string name="varicose_chk_txt">Varicose veins:</string>
+    <string name="past_chk_txt">Past Clots in veins:</string>
+    <string name="nervousness_chk_txt">Nervousness:</string>
+    <string name="tension_chk_txt">Tension:</string>
+    <string name="depression_chk_txt">Depression:</string>
+    <string name="insomnia_chk_txt">Insomnia:</string>
+    <string name="dowakerested_chk_txt">Do you wake rested?:</string>
+    <string name="dosmoke_chk_txt">Do you smoke? Y/N/Past:</string>
+    <string name="doalcohol_chk_txt">Do you consume Alcohol/Beer? Y/N/Past</string>
+    <string name="recreationaldrug_chk_txt">Recreational drug use? Y/N/Past</string>
+    <string name="doexercise_chk_txt">Do you exercise? Y/N</string>
+    <string name="howdaysweekexcercise_chk_txt">How many days in one week?</string>
+    <string name="married_txt">Married</string>
+    <string name="divorced_txt">Divorced</string>
+    <string name="single_txt">Single</string>
+    <string name="widow_txt">Widow</string>
+    <string name="guarantor_txt">Guarantor Info</string>
+    <string name="whatsymp_txt">Symptoms you are exhibiting for today’s visit.</string>
+    <string name="head_txt">Head</string>
+    <string name="eye_txt">Eye</string>
+    <string name="ears_txt">Ears</string>
+    <string name="nose_txt">Nose</string>
+    <string name="neck_txt">Neck</string>
+    <string name="lungs_txt">Lungs</string>
+    <string name="mouththroat_txt">Mouth/Throat</string>
+    <string name="cardiovascular_txt">Cardiovascular</string>
+    <string name="gastrointestinal_txt">Gastrointestinal</string>
+    <string name="genitourinary_txt">Genitourinary</string>
+    <string name="musculoskeletal_txt">Musculoskeletal</string>
+    <string name="neurological_txt">Neurological</string>
+    <string name="skinbreasts_txt">Skin/Breasts</string>
+    <string name="endocrine_txt">Endocrine</string>
+    <string name="hematologic_txt">Hematologic</string>
+    <string name="peripheralvascular_txt">Peripheral Vascular</string>
+    <string name="psychologicalmood_txt">Psychological/Mood</string>
+    <string name="sleepenergy_txt">Sleep/Energy</string>
+    <string name="immunizations_txt">Immunizations</string>
+    
+    <!--  -->
+    
+    <string name="save_data_message">Are you sure you want to save doctors question result?</string>
+    <string name="str_yes">Yes</string>
+    <string name="str_no">No</string>
+    
+    <string name="strNoDoctorQuestionMessage">Question not available</string>
+    
+    <!-- Search page -->
+    <string name="looking_for">I\'m looking for a</string>
+    <string name="strNear">Near</string>
+    <string name="strBrowse">Or browse all</string>
+    <string name="strSearch">Search</string>
+    <string name="strSpec">All Specialties</string>
+    <string name="strallCity">Choose Location</string>
+    <string name="strResultEnd">End of search results</string>
+    
+    <!-- Doctor survey page -->
+    
+    <string name="strAlertNo">No, continue on form</string>
+    <string name="strAlertYes">Yes, save and return to main menu</string>
+    
+
+</resources>

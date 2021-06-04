@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="blue_heading">#005CC8</color>
+    
+    <!--  -->
+    
+    <color name="main_bg">#0A9187</color>
+    <color name="main_button_stroke">#A5CBC7</color>
+    <color name="main_button_select">#4DB6AC</color>
+    
+    <!--  -->
+<color name="app_text_label">#FFFFFF</color>    
+</resources>

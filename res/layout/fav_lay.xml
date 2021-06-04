@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    
+   >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+          android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/more_book_txt"
+            android:textColor="@color/blue_heading"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/gen_txt"
+            android:textColor="@android:color/black" />
+
+        <CheckBox
+            android:id="@+id/sci_chk_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/sci_txt" />
+
+        <CheckBox
+            android:id="@+id/sat_chk_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/sat_txt" />
+
+        <CheckBox
+            android:id="@+id/drama_chk_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/drama_txt" />
+
+        <CheckBox
+            android:id="@+id/roman_chk_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/roman_txt" />
+
+        <CheckBox
+            android:id="@+id/myst_chk_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/myst_txt" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/child1_txt"
+            android:textColor="@android:color/black" />
+
+        <CheckBox
+            android:id="@+id/comd_chk_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/comd_txt" />
+
+        <CheckBox
+            android:id="@+id/comc_chk_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/comc_txt" />
+
+        <CheckBox
+            android:id="@+id/fant_chk_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/fant_txt" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:text="@string/sleep_txt"
+            android:textColor="@color/blue_heading"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/energy_txt"
+            android:textColor="@android:color/black" />
+
+        <Spinner
+            android:id="@+id/energy_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/hrs_txt"
+            android:textColor="@android:color/black" />
+
+        <EditText
+            android:id="@+id/hrs_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/curve_btn_bg"
+            android:inputType="numberSigned"
+            android:padding="5dp"
+            android:singleLine="true"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/want_rest_txt"
+            android:textColor="@android:color/black" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/pyes_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@drawable/checkbox"
+                android:text="@string/yes_txt"
+                android:textColor="@android:color/black" />
+
+            <RadioButton
+                android:id="@+id/pno_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@drawable/checkbox"
+                android:text="@string/no_txt"
+                android:textColor="@android:color/black" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:text="@string/style_txt"
+            android:textColor="@color/blue_heading"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/issomke_txt"
+            android:textColor="@android:color/black" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical" >
+
+            <RadioButton
+                android:id="@+id/sm_yes_chk_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:button="@drawable/checkbox"
+                android:text="@string/yes_txt"
+                android:textColor="@android:color/black" />
+
+            <RadioButton
+                android:id="@+id/sm_no_chk_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:button="@drawable/checkbox"
+                android:text="@string/no_txt"
+                android:textColor="@android:color/black" />
+
+            <RadioButton
+                android:id="@+id/sm_past_chk_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:button="@drawable/checkbox"
+                android:text="@string/past_txt"
+                android:textColor="@android:color/black" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/isalch_txt"
+            android:textColor="@android:color/black" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical" >
+
+            <RadioButton
+                android:id="@+id/alc_yes_chk_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:button="@drawable/checkbox"
+                android:text="@string/yes_txt"
+                android:textColor="@android:color/black" />
+
+            <RadioButton
+                android:id="@+id/alc_no_chk_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:button="@drawable/checkbox"
+                android:text="@string/no_txt"
+                android:textColor="@android:color/black" />
+
+            <RadioButton
+                android:id="@+id/alc_past_chk_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:button="@drawable/checkbox"
+                android:text="@string/past_txt"
+                android:textColor="@android:color/black" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/times_txt"
+            android:textColor="@android:color/black" />
+
+        <EditText
+            android:id="@+id/times_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/curve_btn_bg"
+            android:inputType="numberSigned"
+            android:padding="5dp"
+            android:singleLine="true"
+            android:textColor="@android:color/black" />
+    </LinearLayout>
+
+</ScrollView>

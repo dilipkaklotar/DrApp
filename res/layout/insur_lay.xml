@@ -1,0 +1,554 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_bg" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin" >
+
+        <com.app.doc.util.RobotoTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/yourinsur_txt"
+            android:textColor="@android:color/black"
+            android:textSize="20sp" />
+
+        <!-- <TextView -->
+        <!-- android:layout_width="wrap_content" -->
+        <!-- android:layout_height="wrap_content" -->
+        <!-- android:layout_marginTop="20dp" -->
+        <!-- android:text="@string/medins_txt" -->
+        <!-- android:textColor="@android:color/black" /> -->
+
+
+        <!-- <EditText -->
+        <!-- android:id="@+id/medins_id" -->
+        <!-- android:layout_width="match_parent" -->
+        <!-- android:layout_height="wrap_content" -->
+        <!-- android:layout_marginTop="10dp" -->
+        <!-- android:background="@drawable/curve_btn_bg" -->
+        <!-- android:inputType="text" -->
+        <!-- android:padding="5dp" -->
+        <!-- android:singleLine="true" -->
+        <!-- android:textColor="@android:color/black" /> -->
+
+        <com.app.doc.util.RobotoTextView
+            style="@style/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/medins_txt" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/myes_id"
+                style="@style/text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@drawable/checkbox"
+                android:text="@string/yes_txt" />
+
+            <RadioButton
+                android:id="@+id/mno_id"
+                style="@style/text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@drawable/checkbox"
+                android:text="@string/no_txt" />
+        </RadioGroup>
+
+        <com.app.doc.util.RobotoTextView
+            style="@style/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/priminsname_txt" />
+
+        <EditText
+            android:id="@+id/priminsname_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/curve_btn_bg"
+            android:inputType="text"
+            android:padding="5dp"
+            android:singleLine="true"
+            android:textColor="@android:color/black" />
+
+        <com.app.doc.util.RobotoTextView
+            style="@style/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/primpolnum_txt" />
+
+        <EditText
+            android:id="@+id/primpolnum_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/curve_btn_bg"
+            android:inputType="text"
+            android:padding="5dp"
+            android:singleLine="true"
+            android:textColor="@android:color/black" />
+
+        <com.app.doc.util.RobotoTextView
+            style="@style/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/primgroupnum_txt" />
+
+        <EditText
+            android:id="@+id/primgroupnum_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/curve_btn_bg"
+            android:inputType="text"
+            android:padding="5dp"
+            android:singleLine="true"
+            android:textColor="@android:color/black" />
+
+        <com.app.doc.util.RobotoTextView
+            style="@style/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/primauthnum_txt" />
+
+        <EditText
+            android:id="@+id/primauthnum_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/curve_btn_bg"
+            android:inputType="text"
+            android:padding="5dp"
+            android:singleLine="true"
+            android:textColor="@android:color/black" />
+
+        <com.app.doc.util.RobotoTextView
+            style="@style/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/priminsadd_txt" />
+
+        <EditText
+            android:id="@+id/priminsadd_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/curve_btn_bg"
+            android:inputType="text"
+            android:padding="5dp"
+            android:singleLine="true"
+            android:textColor="@android:color/black" />
+
+        <com.app.doc.util.RobotoTextView
+            style="@style/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/priminsphone_txt" />
+
+        <EditText
+            android:id="@+id/priminsphone_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/curve_btn_bg"
+            android:inputType="phone"
+            android:padding="5dp"
+            android:singleLine="true"
+            android:textColor="@android:color/black" />
+
+        <com.app.doc.util.RobotoTextView
+            style="@style/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/patientrelat_txt" />
+
+        <EditText
+            android:id="@+id/patientrelat_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/curve_btn_bg"
+            android:inputType="text"
+            android:padding="5dp"
+            android:singleLine="true"
+            android:textColor="@android:color/black" />
+
+        <com.app.doc.util.RobotoTextView
+            style="@style/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/policyhname_txt" />
+
+        <EditText
+            android:id="@+id/policyhname_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/curve_btn_bg"
+            android:inputType="text"
+            android:padding="5dp"
+            android:singleLine="true"
+            android:textColor="@android:color/black" />
+
+        <!-- <TextView -->
+        <!-- android:layout_width="wrap_content" -->
+        <!-- android:layout_height="wrap_content" -->
+        <!-- android:layout_marginTop="20dp" -->
+        <!-- android:text="@string/policyhdob_txt" -->
+        <!-- android:textColor="@android:color/black" /> -->
+
+
+        <!-- <EditText -->
+        <!-- android:id="@+id/policyhdob_id" -->
+        <!-- android:layout_width="match_parent" -->
+        <!-- android:layout_height="wrap_content" -->
+        <!-- android:layout_marginTop="10dp" -->
+        <!-- android:background="@drawable/curve_btn_bg" -->
+        <!-- android:inputType="text" -->
+        <!-- android:padding="5dp" -->
+        <!-- android:singleLine="true" -->
+        <!-- android:textColor="@android:color/black" /> -->
+
+        <com.app.doc.util.RobotoTextView
+            style="@style/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/policyhdob_txt" />
+
+        <TextView
+            android:id="@+id/policyhdob_id"
+            style="@style/text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/curve_btn_bg"
+            android:padding="5dp"
+            android:textColor="@android:color/black" />
+
+        <com.app.doc.util.RobotoTextView
+            style="@style/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/policyhssn_txt" />
+
+        <EditText
+            android:id="@+id/policyhssn_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/curve_btn_bg"
+            android:inputType="numberPassword"
+            android:padding="5dp"
+            android:singleLine="true"
+            android:textColor="@android:color/black" />
+
+        <com.app.doc.util.RobotoTextView
+            style="@style/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/policyhadd_txt" />
+
+        <EditText
+            android:id="@+id/policyhadd_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/curve_btn_bg"
+            android:inputType="text"
+            android:padding="5dp"
+            android:singleLine="true"
+            android:textColor="@android:color/black" />
+
+        <!-- <TextView -->
+        <!-- android:layout_width="wrap_content" -->
+        <!-- android:layout_height="wrap_content" -->
+        <!-- android:layout_marginTop="20dp" -->
+        <!-- android:text="@string/policythruemp_txt" -->
+        <!-- android:textColor="@android:color/black" /> -->
+
+
+        <!-- <EditText -->
+        <!-- android:id="@+id/policythruemp_id" -->
+        <!-- android:layout_width="match_parent" -->
+        <!-- android:layout_height="wrap_content" -->
+        <!-- android:layout_marginTop="10dp" -->
+        <!-- android:background="@drawable/curve_btn_bg" -->
+        <!-- android:inputType="text" -->
+        <!-- android:padding="5dp" -->
+        <!-- android:singleLine="true" -->
+        <!-- android:textColor="@android:color/black" /> -->
+
+        <com.app.doc.util.RobotoTextView
+            style="@style/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/policythruemp_txt" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/policyyes_id"
+                style="@style/text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@drawable/checkbox"
+                android:text="@string/yes_txt" />
+
+            <RadioButton
+                android:id="@+id/policyno_id"
+                style="@style/text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@drawable/checkbox"
+                android:text="@string/no_txt" />
+        </RadioGroup>
+
+        <com.app.doc.util.RobotoTextView
+            style="@style/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/policyhemployer_txt" />
+
+        <EditText
+            android:id="@+id/policyhemployer_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/curve_btn_bg"
+            android:inputType="text"
+            android:padding="5dp"
+            android:singleLine="true"
+            android:textColor="@android:color/black" />
+
+        <com.app.doc.util.RobotoTextView
+            style="@style/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/policyhempaddress_txt" />
+
+        <EditText
+            android:id="@+id/policyhempaddress_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/curve_btn_bg"
+            android:inputType="text"
+            android:padding="5dp"
+            android:singleLine="true"
+            android:textColor="@android:color/black" />
+
+        <com.app.doc.util.RobotoTextView
+            style="@style/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/policyhempcity_txt" />
+
+        <EditText
+            android:id="@+id/policyhempcity_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/curve_btn_bg"
+            android:inputType="text"
+            android:padding="5dp"
+            android:singleLine="true"
+            android:textColor="@android:color/black" />
+
+        <com.app.doc.util.RobotoTextView
+            style="@style/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/policyhempstate_txt" />
+
+        <Spinner
+            android:id="@+id/policyhempstate_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp" />
+
+        <com.app.doc.util.RobotoTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/yoursecinsur_txt"
+            android:textColor="@android:color/black"
+            android:textSize="20sp" />
+
+        <com.app.doc.util.RobotoTextView
+            style="@style/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/secmedins_txt" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/secmyes_id"
+                style="@style/text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@drawable/checkbox"
+                android:text="@string/yes_txt" />
+
+            <RadioButton
+                android:id="@+id/secmno_id"
+                style="@style/text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@drawable/checkbox"
+                android:text="@string/no_txt" />
+        </RadioGroup>
+
+        <com.app.doc.util.RobotoTextView
+            style="@style/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/secinsname_txt" />
+
+        <EditText
+            android:id="@+id/secinsname_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/curve_btn_bg"
+            android:inputType="text"
+            android:padding="5dp"
+            android:singleLine="true"
+            android:textColor="@android:color/black" />
+
+        <com.app.doc.util.RobotoTextView
+            style="@style/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/secpolnum_txt" />
+
+        <EditText
+            android:id="@+id/secpolnum_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/curve_btn_bg"
+            android:inputType="text"
+            android:padding="5dp"
+            android:singleLine="true"
+            android:textColor="@android:color/black" />
+
+        <com.app.doc.util.RobotoTextView
+            style="@style/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/secgroupnum_txt" />
+
+        <EditText
+            android:id="@+id/secgroupnum_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/curve_btn_bg"
+            android:inputType="text"
+            android:padding="5dp"
+            android:singleLine="true"
+            android:textColor="@android:color/black" />
+
+        <com.app.doc.util.RobotoTextView
+            style="@style/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/secauthnum_txt" />
+
+        <EditText
+            android:id="@+id/secauthnum_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/curve_btn_bg"
+            android:inputType="text"
+            android:padding="5dp"
+            android:singleLine="true"
+            android:textColor="@android:color/black" />
+
+        <com.app.doc.util.RobotoTextView
+            style="@style/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/secinsadd_txt" />
+
+        <EditText
+            android:id="@+id/secinsadd_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/curve_btn_bg"
+            android:inputType="text"
+            android:padding="5dp"
+            android:singleLine="true"
+            android:textColor="@android:color/black" />
+
+        <com.app.doc.util.RobotoTextView
+            style="@style/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/secinsphone_txt" />
+
+        <EditText
+            android:id="@+id/secinsphone_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/curve_btn_bg"
+            android:inputType="phone"
+            android:padding="5dp"
+            android:singleLine="true"
+            android:textColor="@android:color/black" />
+
+        <com.app.doc.util.RobotoTextView
+            style="@style/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/secrelationship_txt" />
+
+        <EditText
+            android:id="@+id/secrelationship_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/curve_btn_bg"
+            android:inputType="text"
+            android:padding="5dp"
+            android:singleLine="true"
+            android:textColor="@android:color/black" />
+    </LinearLayout>
+
+</ScrollView>

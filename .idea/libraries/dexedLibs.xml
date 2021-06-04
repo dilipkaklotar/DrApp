@@ -1,0 +1,18 @@
+<component name="libraryTable">
+  <library name="dexedLibs">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/slidingmenuactivity-49b52e420a85e45b986d38ef8354ef47.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/slidingmenuactivity-adc3ab2d8ca6fb60287cc8651229b0a3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/core-830247f50994b97267cf3ea6b665eb49.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/google-play-services-c23aadabe93f86ca0ecbdbf6ca75ec43.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/commons-lang3-3.1-f0c683214f785bff62ee0a97002d2d8f.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/android-support-v4-1eb2c1d1eb4f9bb748fc3ba695647fa0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/android-support-v4-eb1b253056d055aa12c6c48d4d029592.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/commons-lang3-3.1-7041483e9e0c673ecd507ef594269d3f.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/core-75ef1c2d3ad3dcaeeb0a890c83782a1e.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/google-play-services_lib-2cdbd0f4c7ec9a4b783052389cf78e38.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

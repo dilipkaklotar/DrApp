@@ -1,0 +1,3207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/main_bg" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin" >
+
+        <com.app.doc.util.RobotoTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/whatsymp_txt"
+            android:textColor="@android:color/black"
+            android:textSize="20sp" />
+
+        <EditText
+            style="@style/text"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginTop="0dp"
+            android:padding="0dp"
+            android:singleLine="true"
+            android:textColor="@android:color/black" >
+
+            <requestFocus />
+        </EditText>
+
+        <com.app.doc.util.RobotoTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:text="@string/gen_txt"
+            android:textColor="@android:color/black"
+            android:textSize="20sp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <com.app.doc.util.RobotoTextView
+                style="@style/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/weightchng_chk_id"
+                android:layout_alignBottom="@+id/weightchng_chk_id"
+                android:text="@string/weightchng_chk_txt" />
+
+            <CheckBox android:button="@drawable/checkbox"
+                android:id="@+id/weightchng_chk_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                />
+        </RelativeLayout>
+
+        <requestFocus />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <com.app.doc.util.RobotoTextView
+                style="@style/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/weakness_chk_id"
+                android:layout_alignBottom="@+id/weakness_chk_id"
+                android:text="@string/weakness_chk_txt" />
+
+            <CheckBox android:button="@drawable/checkbox"
+                android:id="@+id/weakness_chk_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                 />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <com.app.doc.util.RobotoTextView
+                style="@style/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/fatigue_chk_id"
+                android:layout_alignBottom="@+id/fatigue_chk_id"
+                android:text="@string/fatigue_chk_txt" />
+
+            <CheckBox android:button="@drawable/checkbox"
+                android:id="@+id/fatigue_chk_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                 />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <com.app.doc.util.RobotoTextView
+                style="@style/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/fever_chk_id"
+                android:layout_alignBottom="@+id/fever_chk_id"
+                android:text="@string/fever_chk_txt" />
+
+            <CheckBox android:button="@drawable/checkbox"
+                android:id="@+id/fever_chk_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                 />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <com.app.doc.util.RobotoTextView
+                style="@style/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/cancer_chk_id"
+                android:layout_alignBottom="@+id/cancer_chk_id"
+                android:text="@string/cancer_chk_txt" />
+
+            <CheckBox android:button="@drawable/checkbox"
+                android:id="@+id/cancer_chk_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                 />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <com.app.doc.util.RobotoTextView
+                style="@style/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/defect_chk_id"
+                android:layout_alignBottom="@+id/defect_chk_id"
+                android:text="@string/defect_chk_txt" />
+
+            <CheckBox android:button="@drawable/checkbox"
+                android:id="@+id/defect_chk_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                 />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <com.app.doc.util.RobotoTextView
+                style="@style/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/diseasecolon_chk_id"
+                android:layout_alignBottom="@+id/diseasecolon_chk_id"
+                android:text="@string/diseasecolon_chk_txt" />
+
+            <CheckBox android:button="@drawable/checkbox"
+                android:id="@+id/diseasecolon_chk_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                 />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <com.app.doc.util.RobotoTextView
+                style="@style/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/kidneyd_chk_id"
+                android:layout_alignBottom="@+id/kidneyd_chk_id"
+                android:text="@string/kidneyd_chk_txt" />
+
+            <CheckBox android:button="@drawable/checkbox"
+                android:id="@+id/kidneyd_chk_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                 />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <com.app.doc.util.RobotoTextView
+                style="@style/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/hearttrb_chk_id"
+                android:layout_alignBottom="@+id/hearttrb_chk_id"
+                android:text="@string/hearttrb_chk_txt" />
+
+            <CheckBox android:button="@drawable/checkbox"
+                android:id="@+id/hearttrb_chk_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                 />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <com.app.doc.util.RobotoTextView
+                style="@style/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/lifethreatcondition_chk_id"
+                android:layout_alignBottom="@+id/lifethreatcondition_chk_id"
+                android:text="@string/lifethreatcondition_chk_txt" />
+
+            <CheckBox android:button="@drawable/checkbox"
+                android:id="@+id/lifethreatcondition_chk_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                 />
+        </RelativeLayout>
+
+        <com.app.doc.util.RobotoTextView
+            style="@style/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:text="@string/head_txt"
+            android:textColor="@android:color/black"
+            android:textSize="20sp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <com.app.doc.util.RobotoTextView
+                style="@style/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/headache_chk_id"
+                android:layout_alignBottom="@+id/headache_chk_id"
+                android:text="@string/headache_chk_txt" />
+
+            <CheckBox android:button="@drawable/checkbox"
+                android:id="@+id/headache_chk_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                 />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <com.app.doc.util.RobotoTextView
+                style="@style/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/headinjury_chk_id"
+                android:layout_alignBottom="@+id/headinjury_chk_id"
+                android:text="@string/headinjury_chk_txt" />
+
+            <CheckBox android:button="@drawable/checkbox"
+                android:id="@+id/headinjury_chk_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                 />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <com.app.doc.util.RobotoTextView
+                style="@style/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/dizziness_chk_id"
+                android:layout_alignBottom="@+id/dizziness_chk_id"
+                android:text="@string/dizziness_chk_txt" />
+
+            <CheckBox android:button="@drawable/checkbox"
+                android:id="@+id/dizziness_chk_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                 />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <com.app.doc.util.RobotoTextView
+                style="@style/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/lightheadedness_chk_id"
+                android:layout_alignBottom="@+id/lightheadedness_chk_id"
+                android:text="@string/lightheadedness_chk_txt" />
+
+            <CheckBox android:button="@drawable/checkbox"
+                android:id="@+id/lightheadedness_chk_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                 />
+        </RelativeLayout>
+
+        <com.app.doc.util.RobotoTextView
+            style="@style/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:text="@string/eye_txt"
+            android:textColor="@android:color/black"
+            android:textSize="20sp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <com.app.doc.util.RobotoTextView
+                style="@style/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/visionchange_chk_id"
+                android:layout_alignBottom="@+id/visionchange_chk_id"
+                android:text="@string/visionchange_chk_txt" />
+
+            <CheckBox android:button="@drawable/checkbox"
+                android:id="@+id/visionchange_chk_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                 />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <com.app.doc.util.RobotoTextView
+                style="@style/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/eyepain_chk_id"
+                android:layout_alignBottom="@+id/eyepain_chk_id"
+                android:text="@string/eyepain_chk_txt" />
+
+            <CheckBox android:button="@drawable/checkbox"
+                android:id="@+id/eyepain_chk_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                 />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <com.app.doc.util.RobotoTextView
+                style="@style/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/doublevision_chk_id"
+                android:layout_alignBottom="@+id/doublevision_chk_id"
+                android:text="@string/doublevision_chk_txt" />
+
+            <CheckBox android:button="@drawable/checkbox"
+                android:id="@+id/doublevision_chk_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                 />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <com.app.doc.util.RobotoTextView
+                style="@style/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/spotsflashinglights_chk_id"
+                android:layout_alignBottom="@+id/spotsflashinglights_chk_id"
+                android:text="@string/spotsflashinglights_chk_txt" />
+
+            <CheckBox android:button="@drawable/checkbox"
+                android:id="@+id/spotsflashinglights_chk_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                 />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <com.app.doc.util.RobotoTextView
+                style="@style/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/glaucoma_chk_id"
+                android:layout_alignBottom="@+id/glaucoma_chk_id"
+                android:text="@string/glaucoma_chk_txt" />
+
+            <CheckBox android:button="@drawable/checkbox"
+                android:id="@+id/glaucoma_chk_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                 />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <com.app.doc.util.RobotoTextView
+                style="@style/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/cataracts_chk_id"
+                android:layout_alignBottom="@+id/cataracts_chk_id"
+                android:text="@string/cataracts_chk_txt" />
+
+            <CheckBox android:button="@drawable/checkbox"
+                android:id="@+id/cataracts_chk_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                 />
+        </RelativeLayout>
+
+        <com.app.doc.util.RobotoTextView
+            style="@style/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:text="@string/ears_txt"
+            android:textColor="@android:color/black"
+            android:textSize="20sp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <com.app.doc.util.RobotoTextView
+                style="@style/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/hearingchange_chk_id"
+                android:layout_alignBottom="@+id/hearingchange_chk_id"
+                android:text="@string/hearingchange_chk_txt" />
+
+            <CheckBox android:button="@drawable/checkbox"
+                android:id="@+id/hearingchange_chk_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                 />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <com.app.doc.util.RobotoTextView
+                style="@style/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/ringing_chk_id"
+                android:layout_alignBottom="@+id/ringing_chk_id"
+                android:text="@string/ringing_chk_txt" />
+
+            <CheckBox android:button="@drawable/checkbox"
+                android:id="@+id/ringing_chk_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                 />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <com.app.doc.util.RobotoTextView
+                style="@style/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/vertigo_chk_id"
+                android:layout_alignBottom="@+id/vertigo_chk_id"
+                android:text="@string/vertigo_chk_txt" />
+
+            <CheckBox android:button="@drawable/checkbox"
+                android:id="@+id/vertigo_chk_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                 />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <com.app.doc.util.RobotoTextView
+                style="@style/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/earaches_chk_id"
+                android:layout_alignBottom="@+id/earaches_chk_id"
+                android:text="@string/earaches_chk_txt" />
+
+            <CheckBox android:button="@drawable/checkbox"
+                android:id="@+id/earaches_chk_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                 />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <com.app.doc.util.RobotoTextView
+                style="@style/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/infection_chk_id"
+                android:layout_alignBottom="@+id/infection_chk_id"
+                android:text="@string/infection_chk_txt" />
+
+            <CheckBox android:button="@drawable/checkbox"
+                android:id="@+id/infection_chk_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                 />
+        </RelativeLayout>
+
+        <com.app.doc.util.RobotoTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:text="@string/nose_txt"
+            android:textColor="@android:color/black"
+            android:textSize="20sp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <com.app.doc.util.RobotoTextView
+                style="@style/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/frequentcold_chk_id"
+                android:layout_alignBottom="@+id/frequentcold_chk_id"
+                android:text="@string/frequentcold_chk_txt" />
+
+            <CheckBox android:button="@drawable/checkbox"
+                android:id="@+id/frequentcold_chk_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                 />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <com.app.doc.util.RobotoTextView
+                style="@style/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/nasalcongestion_chk_id"
+                android:layout_alignBottom="@+id/nasalcongestion_chk_id"
+                android:text="@string/nasalcongestion_chk_txt" />
+
+            <CheckBox android:button="@drawable/checkbox"
+                android:id="@+id/nasalcongestion_chk_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                 />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <com.app.doc.util.RobotoTextView
+                style="@style/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/discharge_chk_id"
+                android:layout_alignBottom="@+id/discharge_chk_id"
+                android:text="@string/discharge_chk_txt" />
+
+            <CheckBox android:button="@drawable/checkbox"
+                android:id="@+id/discharge_chk_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                 />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <com.app.doc.util.RobotoTextView
+                style="@style/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/hayfever_chk_id"
+                android:layout_alignBottom="@+id/hayfever_chk_id"
+                android:text="@string/hayfever_chk_txt" />
+
+            <CheckBox android:button="@drawable/checkbox"
+                android:id="@+id/hayfever_chk_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                 />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <com.app.doc.util.RobotoTextView
+                style="@style/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/nosebleed_chk_id"
+                android:layout_alignBottom="@+id/nosebleed_chk_id"
+                android:text="@string/nosebleed_chk_txt" />
+
+            <CheckBox android:button="@drawable/checkbox"
+                android:id="@+id/nosebleed_chk_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                 />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <com.app.doc.util.RobotoTextView
+                style="@style/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/sinus_chk_id"
+                android:layout_alignBottom="@+id/sinus_chk_id"
+                android:text="@string/sinus_chk_txt" />
+
+            <CheckBox android:button="@drawable/checkbox"
+                android:id="@+id/sinus_chk_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                 />
+        </RelativeLayout>
+
+        <com.app.doc.util.RobotoTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:text="@string/neck_txt"
+            android:textColor="@android:color/black"
+            android:textSize="20sp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <com.app.doc.util.RobotoTextView
+                style="@style/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/lumpsneck_chk_id"
+                android:layout_alignBottom="@+id/lumpsneck_chk_id"
+                android:text="@string/lumpsneck_chk_txt" />
+
+            <CheckBox android:button="@drawable/checkbox"
+                android:id="@+id/lumpsneck_chk_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                 />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <com.app.doc.util.RobotoTextView
+                style="@style/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/swollenglands_chk_id"
+                android:layout_alignBottom="@+id/swollenglands_chk_id"
+                android:text="@string/swollenglands_chk_txt" />
+
+            <CheckBox android:button="@drawable/checkbox"
+                android:id="@+id/swollenglands_chk_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                 />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <com.app.doc.util.RobotoTextView
+                style="@style/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/goiter_chk_id"
+                android:layout_alignBottom="@+id/goiter_chk_id"
+                android:text="@string/goiter_chk_txt" />
+
+            <CheckBox android:button="@drawable/checkbox"
+                android:id="@+id/goiter_chk_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                 />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <com.app.doc.util.RobotoTextView
+                style="@style/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/painneck_chk_id"
+                android:layout_alignBottom="@+id/painneck_chk_id"
+                android:text="@string/painneck_chk_txt" />
+
+            <CheckBox android:button="@drawable/checkbox"
+                android:id="@+id/painneck_chk_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                 />
+        </RelativeLayout>
+
+        <com.app.doc.util.RobotoTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:text="@string/lungs_txt"
+            android:textColor="@android:color/black"
+            android:textSize="20sp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <com.app.doc.util.RobotoTextView
+                style="@style/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/cough_chk_id"
+                android:layout_alignBottom="@+id/cough_chk_id"
+                android:text="@string/cough_chk_txt" />
+
+            <CheckBox android:button="@drawable/checkbox"
+                android:id="@+id/cough_chk_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                 />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <com.app.doc.util.RobotoTextView
+                style="@style/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/coughingblood_chk_id"
+                android:layout_alignBottom="@+id/coughingblood_chk_id"
+                android:text="@string/coughingblood_chk_txt" />
+
+            <CheckBox android:button="@drawable/checkbox"
+                android:id="@+id/coughingblood_chk_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                 />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <com.app.doc.util.RobotoTextView
+                style="@style/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/shortnessbreath_chk_id"
+                android:layout_alignBottom="@+id/shortnessbreath_chk_id"
+                android:text="@string/shortnessbreath_chk_txt" />
+
+            <CheckBox android:button="@drawable/checkbox"
+                android:id="@+id/shortnessbreath_chk_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                 />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <com.app.doc.util.RobotoTextView
+                style="@style/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/wheezing_chk_id"
+                android:layout_alignBottom="@+id/wheezing_chk_id"
+                android:text="@string/wheezing_chk_txt" />
+
+            <CheckBox android:button="@drawable/checkbox"
+                android:id="@+id/wheezing_chk_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                 />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <com.app.doc.util.RobotoTextView
+                style="@style/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/sleepapnea_chk_id"
+                android:layout_alignBottom="@+id/sleepapnea_chk_id"
+                android:text="@string/sleepapnea_chk_txt" />
+
+            <CheckBox android:button="@drawable/checkbox"
+                android:id="@+id/sleepapnea_chk_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                 />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <com.app.doc.util.RobotoTextView
+                style="@style/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/troublebreathing_chk_id"
+                android:layout_alignBottom="@+id/troublebreathing_chk_id"
+                android:text="@string/troublebreathing_chk_txt" />
+
+            <CheckBox android:button="@drawable/checkbox"
+                android:id="@+id/troublebreathing_chk_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                 />
+        </RelativeLayout>
+
+        <com.app.doc.util.RobotoTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:text="@string/mouththroat_txt"
+            android:textColor="@android:color/black"
+            android:textSize="20sp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <com.app.doc.util.RobotoTextView
+                style="@style/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/dentalproblems_chk_id"
+                android:layout_alignBottom="@+id/dentalproblems_chk_id"
+                android:text="@string/dentalproblems_chk_txt" />
+
+            <CheckBox android:button="@drawable/checkbox"
+                android:id="@+id/dentalproblems_chk_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                 />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <com.app.doc.util.RobotoTextView
+                style="@style/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/soretongue_chk_id"
+                android:layout_alignBottom="@+id/soretongue_chk_id"
+                android:text="@string/soretongue_chk_txt" />
+
+            <CheckBox android:button="@drawable/checkbox"
+                android:id="@+id/soretongue_chk_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                 />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <com.app.doc.util.RobotoTextView
+                style="@style/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/drymouth_chk_id"
+                android:layout_alignBottom="@+id/drymouth_chk_id"
+                android:text="@string/drymouth_chk_txt" />
+
+            <CheckBox android:button="@drawable/checkbox"
+                android:id="@+id/drymouth_chk_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                 />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <com.app.doc.util.RobotoTextView
+                style="@style/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/freqsorethroat_chk_id"
+                android:layout_alignBottom="@+id/freqsorethroat_chk_id"
+                android:text="@string/freqsorethroat_chk_txt" />
+
+            <CheckBox android:button="@drawable/checkbox"
+                android:id="@+id/freqsorethroat_chk_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                 />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <com.app.doc.util.RobotoTextView
+                style="@style/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/hoarseness_chk_id"
+                android:layout_alignBottom="@+id/hoarseness_chk_id"
+                android:text="@string/hoarseness_chk_txt" />
+
+            <CheckBox android:button="@drawable/checkbox"
+                android:id="@+id/hoarseness_chk_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                 />
+        </RelativeLayout>
+
+        <com.app.doc.util.RobotoTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:text="@string/cardiovascular_txt"
+            android:textColor="@android:color/black"
+            android:textSize="20sp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <com.app.doc.util.RobotoTextView
+                style="@style/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/chestpain_chk_id"
+                android:layout_alignBottom="@+id/chestpain_chk_id"
+                android:text="@string/chestpain_chk_txt" />
+
+            <CheckBox android:button="@drawable/checkbox"
+                android:id="@+id/chestpain_chk_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                 />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <com.app.doc.util.RobotoTextView
+                style="@style/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/highbloodpressure_chk_id"
+                android:layout_alignBottom="@+id/highbloodpressure_chk_id"
+                android:text="@string/highbloodpressure_chk_txt" />
+
+            <CheckBox android:button="@drawable/checkbox"
+                android:id="@+id/highbloodpressure_chk_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                 />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <com.app.doc.util.RobotoTextView
+                style="@style/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/murmus_chk_id"
+                android:layout_alignBottom="@+id/murmus_chk_id"
+                android:text="@string/murmus_chk_txt" />
+
+            <CheckBox android:button="@drawable/checkbox"
+                android:id="@+id/murmus_chk_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                 />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <com.app.doc.util.RobotoTextView
+                style="@style/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/rheumaticfever_chk_id"
+                android:layout_alignBottom="@+id/rheumaticfever_chk_id"
+                android:text="@string/rheumaticfever_chk_txt" />
+
+            <CheckBox android:button="@drawable/checkbox"
+                android:id="@+id/rheumaticfever_chk_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                 />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <com.app.doc.util.RobotoTextView
+                style="@style/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/palpitations_chk_id"
+                android:layout_alignBottom="@+id/palpitations_chk_id"
+                android:text="@string/palpitations_chk_txt" />
+
+            <CheckBox android:button="@drawable/checkbox"
+                android:id="@+id/palpitations_chk_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                 />
+        </RelativeLayout>
+
+        <com.app.doc.util.RobotoTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:text="@string/gastrointestinal_txt"
+            android:textColor="@android:color/black"
+            android:textSize="20sp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <com.app.doc.util.RobotoTextView
+                style="@style/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/difficultyswallow_chk_id"
+                android:layout_alignBottom="@+id/difficultyswallow_chk_id"
+                android:text="@string/difficultyswallow_chk_txt" />
+
+            <CheckBox android:button="@drawable/checkbox"
+                android:id="@+id/difficultyswallow_chk_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                 />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <com.app.doc.util.RobotoTextView
+                style="@style/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/heartburn_chk_id"
+                android:layout_alignBottom="@+id/heartburn_chk_id"
+                android:text="@string/heartburn_chk_txt" />
+
+            <CheckBox android:button="@drawable/checkbox"
+                android:id="@+id/heartburn_chk_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                 />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <com.app.doc.util.RobotoTextView
+                style="@style/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/nauseavomit_chk_id"
+                android:layout_alignBottom="@+id/nauseavomit_chk_id"
+                android:text="@string/nauseavomit_chk_txt" />
+
+            <CheckBox android:button="@drawable/checkbox"
+                android:id="@+id/nauseavomit_chk_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                 />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <com.app.doc.util.RobotoTextView
+                style="@style/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/regurgitation_chk_id"
+                android:layout_alignBottom="@+id/regurgitation_chk_id"
+                android:text="@string/regurgitation_chk_txt" />
+
+            <CheckBox android:button="@drawable/checkbox"
+                android:id="@+id/regurgitation_chk_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                 />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <com.app.doc.util.RobotoTextView
+                style="@style/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/vomitingblood_chk_id"
+                android:layout_alignBottom="@+id/vomitingblood_chk_id"
+                android:text="@string/vomitingblood_chk_txt" />
+
+            <CheckBox android:button="@drawable/checkbox"
+                android:id="@+id/vomitingblood_chk_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                 />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <com.app.doc.util.RobotoTextView
+                style="@style/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/indigestion_chk_id"
+                android:layout_alignBottom="@+id/indigestion_chk_id"
+                android:text="@string/indigestion_chk_txt" />
+
+            <CheckBox android:button="@drawable/checkbox"
+                android:id="@+id/indigestion_chk_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                 />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <com.app.doc.util.RobotoTextView
+                style="@style/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/rectalbleeding_chk_id"
+                android:layout_alignBottom="@+id/rectalbleeding_chk_id"
+                android:text="@string/rectalbleeding_chk_txt" />
+
+            <CheckBox android:button="@drawable/checkbox"
+                android:id="@+id/rectalbleeding_chk_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                 />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <com.app.doc.util.RobotoTextView
+                style="@style/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/blacktarrystools_chk_id"
+                android:layout_alignBottom="@+id/blacktarrystools_chk_id"
+                android:text="@string/blacktarrystools_chk_txt" />
+
+            <CheckBox android:button="@drawable/checkbox"
+                android:id="@+id/blacktarrystools_chk_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                 />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <com.app.doc.util.RobotoTextView
+                style="@style/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/hemorrhoids_chk_id"
+                android:layout_alignBottom="@+id/hemorrhoids_chk_id"
+                android:text="@string/hemorrhoids_chk_txt" />
+
+            <CheckBox android:button="@drawable/checkbox"
+                android:id="@+id/hemorrhoids_chk_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                 />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <com.app.doc.util.RobotoTextView
+                style="@style/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/constipation_chk_id"
+                android:layout_alignBottom="@+id/constipation_chk_id"
+                android:text="@string/constipation_chk_txt" />
+
+            <CheckBox android:button="@drawable/checkbox"
+                android:id="@+id/constipation_chk_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                 />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <com.app.doc.util.RobotoTextView
+                style="@style/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/diarrhea_chk_id"
+                android:layout_alignBottom="@+id/diarrhea_chk_id"
+                android:text="@string/diarrhea_chk_txt" />
+
+            <CheckBox android:button="@drawable/checkbox"
+                android:id="@+id/diarrhea_chk_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                 />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <com.app.doc.util.RobotoTextView
+                style="@style/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/abdominal_chk_id"
+                android:layout_alignBottom="@+id/abdominal_chk_id"
+                android:text="@string/abdominal_chk_txt" />
+
+            <CheckBox android:button="@drawable/checkbox"
+                android:id="@+id/abdominal_chk_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                 />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <com.app.doc.util.RobotoTextView
+                style="@style/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/foodintolerance_chk_id"
+                android:layout_alignBottom="@+id/foodintolerance_chk_id"
+                android:text="@string/foodintolerance_chk_txt" />
+
+            <CheckBox android:button="@drawable/checkbox"
+                android:id="@+id/foodintolerance_chk_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                 />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <com.app.doc.util.RobotoTextView
+                style="@style/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/excessivebelchgas_chk_id"
+                android:layout_alignBottom="@+id/excessivebelchgas_chk_id"
+                android:text="@string/excessivebelchgas_chk_txt" />
+
+            <CheckBox android:button="@drawable/checkbox"
+                android:id="@+id/excessivebelchgas_chk_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                 />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <com.app.doc.util.RobotoTextView
+                style="@style/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/yellowingskin_chk_id"
+                android:layout_alignBottom="@+id/yellowingskin_chk_id"
+                android:text="@string/yellowingskin_chk_txt" />
+
+            <CheckBox android:button="@drawable/checkbox"
+                android:id="@+id/yellowingskin_chk_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                 />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <com.app.doc.util.RobotoTextView
+                style="@style/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/livergallbladderprobs_chk_id"
+                android:layout_alignBottom="@+id/livergallbladderprobs_chk_id"
+                android:text="@string/livergallbladderprobs_chk_txt" />
+
+            <CheckBox android:button="@drawable/checkbox"
+                android:id="@+id/livergallbladderprobs_chk_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                 />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <com.app.doc.util.RobotoTextView
+                style="@style/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/hepatitis_chk_id"
+                android:layout_alignBottom="@+id/hepatitis_chk_id"
+                android:text="@string/hepatitis_chk_txt" />
+
+            <CheckBox android:button="@drawable/checkbox"
+                android:id="@+id/hepatitis_chk_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                 />
+        </RelativeLayout>
+
+        <com.app.doc.util.RobotoTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:text="@string/genitourinary_txt"
+            android:textColor="@android:color/black"
+            android:textSize="20sp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <com.app.doc.util.RobotoTextView
+                style="@style/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/bladderinfection_chk_id"
+                android:layout_alignBottom="@+id/bladderinfection_chk_id"
+                android:text="@string/bladderinfection_chk_txt" />
+
+            <CheckBox android:button="@drawable/checkbox"
+                android:id="@+id/bladderinfection_chk_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                 />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <com.app.doc.util.RobotoTextView
+                style="@style/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/urinaryfrequrgency_chk_id"
+                android:layout_alignBottom="@+id/urinaryfrequrgency_chk_id"
+                android:text="@string/urinaryfrequrgency_chk_txt" />
+
+            <CheckBox android:button="@drawable/checkbox"
+                android:id="@+id/urinaryfrequrgency_chk_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                 />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <com.app.doc.util.RobotoTextView
+                style="@style/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/bloodurine_chk_id"
+                android:layout_alignBottom="@+id/bloodurine_chk_id"
+                android:text="@string/bloodurine_chk_txt" />
+
+            <CheckBox android:button="@drawable/checkbox"
+                android:id="@+id/bloodurine_chk_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                 />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <com.app.doc.util.RobotoTextView
+                style="@style/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/painfulurination_chk_id"
+                android:layout_alignBottom="@+id/painfulurination_chk_id"
+                android:text="@string/painfulurination_chk_txt" />
+
+            <CheckBox android:button="@drawable/checkbox"
+                android:id="@+id/painfulurination_chk_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                 />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <com.app.doc.util.RobotoTextView
+                style="@style/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/dribblingstream_chk_id"
+                android:layout_alignBottom="@+id/dribblingstream_chk_id"
+                android:text="@string/dribblingstream_chk_txt" />
+
+            <CheckBox android:button="@drawable/checkbox"
+                android:id="@+id/dribblingstream_chk_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                 />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <com.app.doc.util.RobotoTextView
+                style="@style/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/reducedforcestream_chk_id"
+                android:layout_alignBottom="@+id/reducedforcestream_chk_id"
+                android:text="@string/reducedforcestream_chk_txt" />
+
+            <CheckBox android:button="@drawable/checkbox"
+                android:id="@+id/reducedforcestream_chk_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                 />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <com.app.doc.util.RobotoTextView
+                style="@style/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/hesitancy_chk_id"
+                android:layout_alignBottom="@+id/hesitancy_chk_id"
+                android:text="@string/hesitancy_chk_txt" />
+
+            <CheckBox android:button="@drawable/checkbox"
+                android:id="@+id/hesitancy_chk_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                 />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <com.app.doc.util.RobotoTextView
+                style="@style/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/incontinence_chk_id"
+                android:layout_alignBottom="@+id/incontinence_chk_id"
+                android:text="@string/incontinence_chk_txt" />
+
+            <CheckBox android:button="@drawable/checkbox"
+                android:id="@+id/incontinence_chk_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                 />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <com.app.doc.util.RobotoTextView
+                style="@style/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/bladderkidneystone_chk_id"
+                android:layout_alignBottom="@+id/bladderkidneystone_chk_id"
+                android:text="@string/bladderkidneystone_chk_txt" />
+
+            <CheckBox android:button="@drawable/checkbox"
+                android:id="@+id/bladderkidneystone_chk_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                 />
+        </RelativeLayout>
+
+        <com.app.doc.util.RobotoTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:text="@string/female_txt"
+            android:textColor="@android:color/black"
+            android:textSize="20sp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <com.app.doc.util.RobotoTextView
+                style="@style/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/irregularmenses_chk_id"
+                android:layout_alignBottom="@+id/irregularmenses_chk_id"
+                android:text="@string/irregularmenses_chk_txt" />
+
+            <CheckBox android:button="@drawable/checkbox"
+                android:id="@+id/irregularmenses_chk_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                 />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <com.app.doc.util.RobotoTextView
+                style="@style/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/breakthroughbleeding_chk_id"
+                android:layout_alignBottom="@+id/breakthroughbleeding_chk_id"
+                android:text="@string/breakthroughbleeding_chk_txt" />
+
+            <CheckBox android:button="@drawable/checkbox"
+                android:id="@+id/breakthroughbleeding_chk_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                 />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <com.app.doc.util.RobotoTextView
+                style="@style/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/painfulmenses_chk_id"
+                android:layout_alignBottom="@+id/painfulmenses_chk_id"
+                android:text="@string/painfulmenses_chk_txt" />
+
+            <CheckBox android:button="@drawable/checkbox"
+                android:id="@+id/painfulmenses_chk_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                 />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <com.app.doc.util.RobotoTextView
+                style="@style/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/pms_chk_id"
+                android:layout_alignBottom="@+id/pms_chk_id"
+                android:text="@string/pms_chk_txt" />
+
+            <CheckBox android:button="@drawable/checkbox"
+                android:id="@+id/pms_chk_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                 />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <com.app.doc.util.RobotoTextView
+                style="@style/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/vaginaldischargeitch_chk_id"
+                android:layout_alignBottom="@+id/vaginaldischargeitch_chk_id"
+                android:text="@string/vaginaldischargeitch_chk_txt" />
+
+            <CheckBox android:button="@drawable/checkbox"
+                android:id="@+id/vaginaldischargeitch_chk_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                 />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <com.app.doc.util.RobotoTextView
+                style="@style/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/vaginalsorelumpsSTD_chk_id"
+                android:layout_alignBottom="@+id/vaginalsorelumpsSTD_chk_id"
+                android:text="@string/vaginalsorelumpsSTD_chk_txt" />
+
+            <CheckBox android:button="@drawable/checkbox"
+                android:id="@+id/vaginalsorelumpsSTD_chk_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                 />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <com.app.doc.util.RobotoTextView
+                style="@style/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/menopausal_chk_id"
+                android:layout_alignBottom="@+id/menopausal_chk_id"
+                android:text="@string/menopausal_chk_txt" />
+
+            <CheckBox android:button="@drawable/checkbox"
+                android:id="@+id/menopausal_chk_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                 />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <com.app.doc.util.RobotoTextView
+                style="@style/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/postmenopausalbleeding_chk_id"
+                android:layout_alignBottom="@+id/postmenopausalbleeding_chk_id"
+                android:text="@string/postmenopausalbleeding_chk_txt" />
+
+            <CheckBox android:button="@drawable/checkbox"
+                android:id="@+id/postmenopausalbleeding_chk_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                 />
+        </RelativeLayout>
+
+        <com.app.doc.util.RobotoTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:text="@string/male_txt"
+            android:textColor="@android:color/black"
+            android:textSize="20sp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <com.app.doc.util.RobotoTextView
+                style="@style/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/hernias_chk_id"
+                android:layout_alignBottom="@+id/hernias_chk_id"
+                android:text="@string/hernias_chk_txt" />
+
+            <CheckBox android:button="@drawable/checkbox"
+                android:id="@+id/hernias_chk_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                 />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <com.app.doc.util.RobotoTextView
+                style="@style/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/dischargessorespeni_chk_id"
+                android:layout_alignBottom="@+id/dischargessorespeni_chk_id"
+                android:text="@string/dischargessorespeni_chk_txt" />
+
+            <CheckBox android:button="@drawable/checkbox"
+                android:id="@+id/dischargessorespeni_chk_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                 />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <com.app.doc.util.RobotoTextView
+                style="@style/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/testicularpainmasses_chk_id"
+                android:layout_alignBottom="@+id/testicularpainmasses_chk_id"
+                android:text="@string/testicularpainmasses_chk_txt" />
+
+            <CheckBox android:button="@drawable/checkbox"
+                android:id="@+id/testicularpainmasses_chk_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                 />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <com.app.doc.util.RobotoTextView
+                style="@style/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/std_chk_id"
+                android:layout_alignBottom="@+id/std_chk_id"
+                android:text="@string/std_chk_txt" />
+
+            <CheckBox android:button="@drawable/checkbox"
+                android:id="@+id/std_chk_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                 />
+        </RelativeLayout>
+
+        <com.app.doc.util.RobotoTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:text="@string/musculoskeletal_txt"
+            android:textSize="20sp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <com.app.doc.util.RobotoTextView
+                style="@style/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/musclepain_chk_id"
+                android:layout_alignBottom="@+id/musclepain_chk_id"
+                android:text="@string/musclepain_chk_txt" />
+
+            <CheckBox android:button="@drawable/checkbox"
+                android:id="@+id/musclepain_chk_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                 />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <com.app.doc.util.RobotoTextView
+                style="@style/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/stiffness_chk_id"
+                android:layout_alignBottom="@+id/stiffness_chk_id"
+                android:text="@string/stiffness_chk_txt" />
+
+            <CheckBox android:button="@drawable/checkbox"
+                android:id="@+id/stiffness_chk_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                 />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <com.app.doc.util.RobotoTextView
+                style="@style/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/arthritis_chk_id"
+                android:layout_alignBottom="@+id/arthritis_chk_id"
+                android:text="@string/arthritis_chk_txt" />
+
+            <CheckBox android:button="@drawable/checkbox"
+                android:id="@+id/arthritis_chk_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                 />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <com.app.doc.util.RobotoTextView
+                style="@style/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/gout_chk_id"
+                android:layout_alignBottom="@+id/gout_chk_id"
+                android:text="@string/gout_chk_txt" />
+
+            <CheckBox android:button="@drawable/checkbox"
+                android:id="@+id/gout_chk_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                 />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <com.app.doc.util.RobotoTextView
+                style="@style/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/backache_chk_id"
+                android:layout_alignBottom="@+id/backache_chk_id"
+                android:text="@string/backache_chk_txt" />
+
+            <CheckBox android:button="@drawable/checkbox"
+                android:id="@+id/backache_chk_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                 />
+        </RelativeLayout>
+
+        <com.app.doc.util.RobotoTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:text="@string/neurological_txt"
+            android:textColor="@android:color/black"
+            android:textSize="20sp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <com.app.doc.util.RobotoTextView
+                style="@style/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/fainting_chk_id"
+                android:layout_alignBottom="@+id/fainting_chk_id"
+                android:text="@string/fainting_chk_txt" />
+
+            <CheckBox android:button="@drawable/checkbox"
+                android:id="@+id/fainting_chk_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                 />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <com.app.doc.util.RobotoTextView
+                style="@style/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/blackouts_chk_id"
+                android:layout_alignBottom="@+id/blackouts_chk_id"
+                android:text="@string/blackouts_chk_txt" />
+
+            <CheckBox android:button="@drawable/checkbox"
+                android:id="@+id/blackouts_chk_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                 />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <com.app.doc.util.RobotoTextView
+                style="@style/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/seizures_chk_id"
+                android:layout_alignBottom="@+id/seizures_chk_id"
+                android:text="@string/seizures_chk_txt" />
+
+            <CheckBox android:button="@drawable/checkbox"
+                android:id="@+id/seizures_chk_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                 />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <com.app.doc.util.RobotoTextView
+                style="@style/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/weaknessparalysis_chk_id"
+                android:layout_alignBottom="@+id/weaknessparalysis_chk_id"
+                android:text="@string/weaknessparalysis_chk_txt" />
+
+            <CheckBox android:button="@drawable/checkbox"
+                android:id="@+id/weaknessparalysis_chk_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                 />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <com.app.doc.util.RobotoTextView
+                style="@style/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/numbnessloss_chk_id"
+                android:layout_alignBottom="@+id/numbnessloss_chk_id"
+                android:text="@string/numbnessloss_chk_txt" />
+
+            <CheckBox android:button="@drawable/checkbox"
+                android:id="@+id/numbnessloss_chk_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                 />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <com.app.doc.util.RobotoTextView
+                style="@style/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/tingling_chk_id"
+                android:layout_alignBottom="@+id/tingling_chk_id"
+                android:text="@string/tingling_chk_txt" />
+
+            <CheckBox android:button="@drawable/checkbox"
+                android:id="@+id/tingling_chk_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                 />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <com.app.doc.util.RobotoTextView
+                style="@style/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/tremors_chk_id"
+                android:layout_alignBottom="@+id/tremors_chk_id"
+                android:text="@string/tremors_chk_txt" />
+
+            <CheckBox android:button="@drawable/checkbox"
+                android:id="@+id/tremors_chk_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                 />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <com.app.doc.util.RobotoTextView
+                style="@style/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/memoryloss_chk_id"
+                android:layout_alignBottom="@+id/memoryloss_chk_id"
+                android:text="@string/memoryloss_chk_txt" />
+
+            <CheckBox android:button="@drawable/checkbox"
+                android:id="@+id/memoryloss_chk_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                 />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <com.app.doc.util.RobotoTextView
+                style="@style/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/trouble_chk_id"
+                android:layout_alignBottom="@+id/trouble_chk_id"
+                android:text="@string/trouble_chk_txt" />
+
+            <CheckBox android:button="@drawable/checkbox"
+                android:id="@+id/trouble_chk_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                 />
+        </RelativeLayout>
+
+        <com.app.doc.util.RobotoTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:text="@string/skinbreasts_txt"
+            android:textColor="@android:color/black"
+            android:textSize="20sp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <com.app.doc.util.RobotoTextView
+                style="@style/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/rasheslumpssores_chk_id"
+                android:layout_alignBottom="@+id/rasheslumpssores_chk_id"
+                android:text="@string/rasheslumpssores_chk_txt" />
+
+            <CheckBox android:button="@drawable/checkbox"
+                android:id="@+id/rasheslumpssores_chk_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                 />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <com.app.doc.util.RobotoTextView
+                style="@style/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/itchingdryness_chk_id"
+                android:layout_alignBottom="@+id/itchingdryness_chk_id"
+                android:text="@string/itchingdryness_chk_txt" />
+
+            <CheckBox android:button="@drawable/checkbox"
+                android:id="@+id/itchingdryness_chk_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                 />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <com.app.doc.util.RobotoTextView
+                style="@style/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/colorchange_chk_id"
+                android:layout_alignBottom="@+id/colorchange_chk_id"
+                android:text="@string/colorchange_chk_txt" />
+
+            <CheckBox android:button="@drawable/checkbox"
+                android:id="@+id/colorchange_chk_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                 />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <com.app.doc.util.RobotoTextView
+                style="@style/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/changehairnails_chk_id"
+                android:layout_alignBottom="@+id/changehairnails_chk_id"
+                android:text="@string/changehairnails_chk_txt" />
+
+            <CheckBox android:button="@drawable/checkbox"
+                android:id="@+id/changehairnails_chk_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                 />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <com.app.doc.util.RobotoTextView
+                style="@style/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/breastlumps_chk_id"
+                android:layout_alignBottom="@+id/breastlumps_chk_id"
+                android:text="@string/breastlumps_chk_txt" />
+
+            <CheckBox android:button="@drawable/checkbox"
+                android:id="@+id/breastlumps_chk_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                 />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <com.app.doc.util.RobotoTextView
+                style="@style/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/breastpain_chk_id"
+                android:layout_alignBottom="@+id/breastpain_chk_id"
+                android:text="@string/breastpain_chk_txt" />
+
+            <CheckBox android:button="@drawable/checkbox"
+                android:id="@+id/breastpain_chk_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                 />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <com.app.doc.util.RobotoTextView
+                style="@style/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/nippledischarge_chk_id"
+                android:layout_alignBottom="@+id/nippledischarge_chk_id"
+                android:text="@string/nippledischarge_chk_txt" />
+
+            <CheckBox android:button="@drawable/checkbox"
+                android:id="@+id/nippledischarge_chk_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                 />
+        </RelativeLayout>
+
+        <com.app.doc.util.RobotoTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:text="@string/endocrine_txt"
+            android:textColor="@android:color/black"
+            android:textSize="20sp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <com.app.doc.util.RobotoTextView
+                style="@style/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/thyroidproblems_chk_id"
+                android:layout_alignBottom="@+id/thyroidproblems_chk_id"
+                android:text="@string/thyroidproblems_chk_txt" />
+
+            <CheckBox android:button="@drawable/checkbox"
+                android:id="@+id/thyroidproblems_chk_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                 />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <com.app.doc.util.RobotoTextView
+                style="@style/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/heatcoldintolerance_chk_id"
+                android:layout_alignBottom="@+id/heatcoldintolerance_chk_id"
+                android:text="@string/heatcoldintolerance_chk_txt" />
+
+            <CheckBox android:button="@drawable/checkbox"
+                android:id="@+id/heatcoldintolerance_chk_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                 />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <com.app.doc.util.RobotoTextView
+                style="@style/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/excessivesweating_chk_id"
+                android:layout_alignBottom="@+id/excessivesweating_chk_id"
+                android:text="@string/excessivesweating_chk_txt" />
+
+            <CheckBox android:button="@drawable/checkbox"
+                android:id="@+id/excessivesweating_chk_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                 />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <com.app.doc.util.RobotoTextView
+                style="@style/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/diabetes_chk_id"
+                android:layout_alignBottom="@+id/diabetes_chk_id"
+                android:text="@string/diabetes_chk_txt" />
+
+            <CheckBox android:button="@drawable/checkbox"
+                android:id="@+id/diabetes_chk_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                 />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <com.app.doc.util.RobotoTextView
+                style="@style/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/excessivethirsthunger_chk_id"
+                android:layout_alignBottom="@+id/excessivethirsthunger_chk_id"
+                android:text="@string/excessivethirsthunger_chk_txt" />
+
+            <CheckBox android:button="@drawable/checkbox"
+                android:id="@+id/excessivethirsthunger_chk_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                 />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <com.app.doc.util.RobotoTextView
+                style="@style/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/frequenturination_chk_id"
+                android:layout_alignBottom="@+id/frequenturination_chk_id"
+                android:text="@string/frequenturination_chk_txt" />
+
+            <CheckBox android:button="@drawable/checkbox"
+                android:id="@+id/frequenturination_chk_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                 />
+        </RelativeLayout>
+
+        <com.app.doc.util.RobotoTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:text="@string/hematologic_txt"
+            android:textColor="@android:color/black"
+            android:textSize="20sp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <com.app.doc.util.RobotoTextView
+                style="@style/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/anemia_chk_id"
+                android:layout_alignBottom="@+id/anemia_chk_id"
+                android:text="@string/anemia_chk_txt" />
+
+            <CheckBox android:button="@drawable/checkbox"
+                android:id="@+id/anemia_chk_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                 />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <com.app.doc.util.RobotoTextView
+                style="@style/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/easybruisingbleeding_chk_id"
+                android:layout_alignBottom="@+id/easybruisingbleeding_chk_id"
+                android:text="@string/easybruisingbleeding_chk_txt" />
+
+            <CheckBox android:button="@drawable/checkbox"
+                android:id="@+id/easybruisingbleeding_chk_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                 />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <com.app.doc.util.RobotoTextView
+                style="@style/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/pasttransfusion_chk_id"
+                android:layout_alignBottom="@+id/pasttransfusion_chk_id"
+                android:text="@string/pasttransfusion_chk_txt" />
+
+            <CheckBox android:button="@drawable/checkbox"
+                android:id="@+id/pasttransfusion_chk_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                 />
+        </RelativeLayout>
+
+        <com.app.doc.util.RobotoTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:text="@string/peripheralvascular_txt"
+            android:textColor="@android:color/black"
+            android:textSize="20sp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <com.app.doc.util.RobotoTextView
+                style="@style/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/intermittent_chk_id"
+                android:layout_alignBottom="@+id/intermittent_chk_id"
+                android:text="@string/intermittent_chk_txt" />
+
+            <CheckBox android:button="@drawable/checkbox"
+                android:id="@+id/intermittent_chk_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                 />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <com.app.doc.util.RobotoTextView
+                style="@style/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/leg_chk_id"
+                android:layout_alignBottom="@+id/leg_chk_id"
+                android:text="@string/leg_chk_txt" />
+
+            <CheckBox android:button="@drawable/checkbox"
+                android:id="@+id/leg_chk_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                 />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <com.app.doc.util.RobotoTextView
+                style="@style/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/varicose_chk_id"
+                android:layout_alignBottom="@+id/varicose_chk_id"
+                android:text="@string/varicose_chk_txt" />
+
+            <CheckBox android:button="@drawable/checkbox"
+                android:id="@+id/varicose_chk_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                 />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <com.app.doc.util.RobotoTextView
+                style="@style/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/past_chk_id"
+                android:layout_alignBottom="@+id/past_chk_id"
+                android:text="@string/past_chk_txt" />
+
+            <CheckBox android:button="@drawable/checkbox"
+                android:id="@+id/past_chk_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                 />
+        </RelativeLayout>
+
+        <com.app.doc.util.RobotoTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:text="@string/psychologicalmood_txt"
+            android:textColor="@android:color/black"
+            android:textSize="20sp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <com.app.doc.util.RobotoTextView
+                style="@style/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/nervousness_chk_id"
+                android:layout_alignBottom="@+id/nervousness_chk_id"
+                android:text="@string/nervousness_chk_txt" />
+
+            <CheckBox android:button="@drawable/checkbox"
+                android:id="@+id/nervousness_chk_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                 />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <com.app.doc.util.RobotoTextView
+                style="@style/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/tension_chk_id"
+                android:layout_alignBottom="@+id/tension_chk_id"
+                android:text="@string/tension_chk_txt" />
+
+            <CheckBox android:button="@drawable/checkbox"
+                android:id="@+id/tension_chk_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                 />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <com.app.doc.util.RobotoTextView
+                style="@style/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/depression_chk_id"
+                android:layout_alignBottom="@+id/depression_chk_id"
+                android:text="@string/depression_chk_txt" />
+
+            <CheckBox android:button="@drawable/checkbox"
+                android:id="@+id/depression_chk_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                 />
+        </RelativeLayout>
+
+        <com.app.doc.util.RobotoTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:text="@string/sleepenergy_txt"
+            android:textColor="@android:color/black"
+            android:textSize="20sp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <com.app.doc.util.RobotoTextView
+                style="@style/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/insomnia_chk_id"
+                android:layout_alignBottom="@+id/insomnia_chk_id"
+                android:text="@string/insomnia_chk_txt" />
+
+            <CheckBox android:button="@drawable/checkbox"
+                android:id="@+id/insomnia_chk_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                 />
+        </RelativeLayout>
+
+        <com.app.doc.util.RobotoTextView
+            style="@style/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/energy_txt" />
+
+        <Spinner
+            android:id="@+id/energy_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp" />
+
+        <com.app.doc.util.RobotoTextView
+            style="@style/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/hrs_txt" />
+
+        <EditText
+            android:id="@+id/hrs_id"
+            style="@style/text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"  android:textColor="@android:color/black"
+            android:background="@drawable/curve_btn_bg"
+            android:ems="10"
+            android:inputType="numberSigned"
+            android:padding="5dp"
+            android:singleLine="true" />
+
+        <!-- <requestFocus android:layout_height="wrap_content" /> -->
+        <!-- </EditText> -->
+
+
+        <!-- <RelativeLayout -->
+        <!-- android:layout_width="match_parent" -->
+        <!-- android:layout_height="wrap_content" -->
+        <!-- android:layout_marginTop="20dp" -->
+        <!-- > -->
+
+
+        <!-- <TextView -->
+        <!-- android:layout_width="wrap_content" -->
+        <!-- android:layout_height="wrap_content" -->
+        <!-- android:layout_alignBaseline="@+id/dowakerested_chk_id" -->
+        <!-- android:layout_alignBottom="@+id/dowakerested_chk_id" -->
+        <!--  -->
+        <!-- android:layout_marginTop="20dp" -->
+        <!-- android:text="@string/dowakerested_chk_txt" -->
+        <!-- style="@style/text" /> -->
+
+
+        <!-- <CheckBox android:button="@drawable/checkbox" -->
+        <!-- android:id="@+id/dowakerested_chk_id" -->
+        <!-- android:layout_width="wrap_content" -->
+        <!-- android:layout_height="wrap_content" -->
+        <!-- android:layout_alignParentRight="true" -->
+        <!-- android:layout_alignParentTop="true" -->
+        <!--  /> -->
+        <!-- </RelativeLayout> -->
+
+        <TextView
+            style="@style/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/dowakerested_chk_txt" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/dowakeyes_id"
+                style="@style/text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@drawable/checkbox"
+                android:text="@string/yes_txt" />
+
+            <RadioButton
+                android:id="@+id/dowakeno_id"
+                style="@style/text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@drawable/checkbox"
+                android:text="@string/no_txt" />
+        </RadioGroup>
+
+        <com.app.doc.util.RobotoTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:text="@string/style_txt"
+            android:textSize="20sp"  />
+
+        <com.app.doc.util.RobotoTextView
+            style="@style/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/issomke_txt" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical" >
+
+            <RadioButton
+                android:id="@+id/sm_yes_chk_id"
+                style="@style/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:button="@drawable/checkbox"
+                android:text="@string/yes_txt" />
+
+            <RadioButton
+                android:id="@+id/sm_no_chk_id"
+                style="@style/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:button="@drawable/checkbox"
+                android:text="@string/no_txt" />
+
+            <RadioButton
+                android:id="@+id/sm_past_chk_id"
+                style="@style/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:button="@drawable/checkbox"
+                android:text="@string/past_txt" />
+        </RadioGroup>
+
+        <com.app.doc.util.RobotoTextView
+            style="@style/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/isalch_txt" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical" >
+
+            <RadioButton
+                android:id="@+id/alc_yes_chk_id"
+                style="@style/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:button="@drawable/checkbox"
+                android:text="@string/yes_txt" />
+
+            <RadioButton
+                android:id="@+id/alc_no_chk_id"
+                style="@style/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:button="@drawable/checkbox"
+                android:text="@string/no_txt" />
+
+            <RadioButton
+                android:id="@+id/alc_past_chk_id"
+                style="@style/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:button="@drawable/checkbox"
+                android:text="@string/past_txt" />
+        </RadioGroup>
+
+        <com.app.doc.util.RobotoTextView
+            style="@style/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/recreationaldrug_chk_txt" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical" >
+
+            <RadioButton
+                android:id="@+id/recdrug_yes_chk_id"
+                style="@style/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:button="@drawable/checkbox"
+                android:text="@string/yes_txt" />
+
+            <RadioButton
+                android:id="@+id/recdrug_no_chk_id"
+                style="@style/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:button="@drawable/checkbox"
+                android:text="@string/no_txt" />
+
+            <RadioButton
+                android:id="@+id/recdrug_past_chk_id"
+                style="@style/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:button="@drawable/checkbox"
+                android:text="@string/past_txt" />
+        </RadioGroup>
+
+        <!-- <RelativeLayout -->
+        <!-- android:layout_width="match_parent" -->
+        <!-- android:layout_height="wrap_content" -->
+        <!-- android:layout_marginTop="20dp" > -->
+
+
+        <!-- <CheckBox -->
+        <!-- android:id="@+id/doexercise_chk_id" -->
+        <!-- android:layout_width="wrap_content" -->
+        <!-- android:layout_height="wrap_content" -->
+        <!-- android:layout_alignParentRight="true" -->
+        <!-- android:layout_alignParentTop="true" -->
+        <!--  -->
+        <!-- android:text="@string/yes_txt" /> -->
+
+
+        <!-- <TextView -->
+        <!-- android:layout_width="wrap_content" -->
+        <!-- android:layout_height="wrap_content" -->
+        <!-- android:layout_alignBaseline="@+id/doexercise_chk_id" -->
+        <!-- android:layout_alignBottom="@+id/doexercise_chk_id" -->
+        <!--  -->
+        <!-- android:text="@string/doexercise_chk_txt" -->
+        <!-- style="@style/text" /> -->
+        <!-- </RelativeLayout> -->
+
+        <com.app.doc.util.RobotoTextView
+            style="@style/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/doexercise_chk_txt" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/doexerciseyes_id"
+                style="@style/text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@drawable/checkbox"
+                android:text="@string/yes_txt" />
+
+            <RadioButton
+                android:id="@+id/doexerciseno_id"
+                style="@style/text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@drawable/checkbox"
+                android:text="@string/no_txt" />
+        </RadioGroup>
+
+        <com.app.doc.util.RobotoTextView
+            style="@style/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/times_txt" />
+
+        <EditText
+            android:id="@+id/times_id"
+            style="@style/text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/curve_btn_bg"
+            android:inputType="numberSigned"  android:textColor="@android:color/black"
+            android:padding="5dp"
+            android:singleLine="true" />
+    </LinearLayout>
+
+    <!-- // End of copy from Fav_lay -->
+
+</ScrollView>

@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/rel_info_view"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_menu"
+            android:padding="10dp" >
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_centerVertical="true"
+                android:background="@drawable/home"
+                android:contentDescription="@string/app_name" />
+
+            <TextView
+                android:id="@+id/info_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="40dp"
+                android:text="@string/info_txt"
+                android:textColor="@android:color/black"
+                android:textSize="16sp" />
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@color/main_bg"
+            android:contentDescription="@string/app_name" />
+
+        <RelativeLayout
+            android:id="@+id/rel_insur_view"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_menu"
+            android:padding="10dp" >
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_centerVertical="true"
+                android:background="@drawable/insurance"
+                android:contentDescription="@string/app_name" />
+
+            <TextView
+                android:id="@+id/insur_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="40dp"
+                android:text="@string/insur_txt"
+                android:textColor="@android:color/black"
+                android:textSize="16sp" />
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@color/main_bg"
+            android:contentDescription="@string/app_name" />
+
+        <RelativeLayout
+            android:id="@+id/rel_q_view"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_menu"
+            android:padding="10dp" >
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_centerVertical="true"
+                android:background="@drawable/questionary"
+                android:contentDescription="@string/app_name" />
+
+            <TextView
+                android:id="@+id/q_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="40dp"
+                android:text="@string/ques_txt"
+                android:textColor="@android:color/black"
+                android:textSize="16sp" />
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@color/main_bg"
+            android:contentDescription="@string/app_name" />
+
+        <RelativeLayout
+            android:id="@+id/rel_symp_view"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_menu"
+            android:padding="10dp" >
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_centerVertical="true"
+                android:background="@drawable/symptoms"
+                android:contentDescription="@string/app_name" />
+
+            <TextView
+                android:id="@+id/symp_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="40dp"
+                android:text="@string/symp_txt"
+                android:textColor="@android:color/black"
+                android:textSize="16sp" />
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@color/main_bg"
+            android:contentDescription="@string/app_name" />
+
+        <RelativeLayout
+            android:id="@+id/rel_search_view"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_menu"
+            android:padding="10dp" >
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_centerVertical="true"
+                android:background="@drawable/search"
+                android:contentDescription="@string/app_name" />
+
+            <TextView
+                android:id="@+id/search_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="40dp"
+                android:text="@string/search_txt"
+                android:textColor="@android:color/black"
+                android:textSize="16sp" />
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@color/main_bg"
+            android:contentDescription="@string/app_name" />
+
+        <RelativeLayout
+            android:id="@+id/rel_scan_view"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_menu"
+            android:padding="10dp" >
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_centerVertical="true"
+                android:background="@drawable/scan"
+                android:contentDescription="@string/app_name" />
+
+            <TextView
+                android:id="@+id/scan_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="40dp"
+                android:text="@string/scan_txt"
+                android:textColor="@android:color/black"
+                android:textSize="16sp" />
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@color/main_bg"
+            android:contentDescription="@string/app_name" />
+
+        <RelativeLayout
+            android:id="@+id/rel_delete_profile"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_menu"
+            android:padding="10dp" >
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_centerVertical="true"
+                android:background="@drawable/profile_delete"
+                android:contentDescription="@string/app_name" />
+
+            <TextView
+                android:id="@+id/delete_profile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="40dp"
+                android:text="@string/delete_profile"
+                android:textColor="@android:color/black"
+                android:textSize="16sp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</ScrollView>
